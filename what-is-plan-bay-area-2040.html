@@ -1,0 +1,2968 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)./what-is-plan-bay-area-2040 -->
+<html
+  lang="en"
+  dir="ltr"
+  prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# "
+  style=""
+  class="no-touchevents details notranslate js">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./2e1d731407"></script>
+    <script src="./js/nr-1173.min.js"></script>
+    <script async="" src="./js/analytics.js"></script>
+    <script type="text/javascript">
+      (window.NREUM || (NREUM = {})).loader_config = {
+        licenseKey: "2e1d731407",
+        applicationID: "70690088"
+      };
+      window.NREUM || (NREUM = {}),
+      __nr_require = function (e, n, t) {
+        function r(t) {
+          if (!n[t]) {
+            var i = n[t] = {
+              exports: {}
+            };
+            e[t][0].call(i.exports, function (n) {
+              var i = e[t][1][n];
+              return r(i || n)
+            }, i, i.exports)
+          }
+          return n[t].exports
+        }
+        if ("function" == typeof __nr_require)
+          return __nr_require;
+        for (var i = 0; i < t.length; i++)
+          r(t[i]);
+        return r
+      }({
+        1: [
+          function (e, n, t) {
+            function r() {}
+            function i(e, n, t) {
+              return function () {
+                return o(
+                  e,
+                  [u.now()].concat(f(arguments)),
+                  n
+                    ? null
+                    : this,
+                  t
+                ),
+                n
+                  ? void 0
+                  : this
+              }
+            }
+            var o = e("handle"),
+              a = e(4),
+              f = e(5),
+              c = e("ee").get("tracer"),
+              u = e("loader"),
+              s = NREUM;
+            "undefined" == typeof window.newrelic && (newrelic = s);
+            var p = [
+                "setPageViewName",
+                "setCustomAttribute",
+                "setErrorHandler",
+                "finished",
+                "addToTrace",
+                "inlineHit",
+                "addRelease"
+              ],
+              l = "api-",
+              d = l + "ixn-";
+            a(p, function (e, n) {
+              s[n] = i(l + n, !0, "api")
+            }),
+            s.addPageAction = i(l + "addPageAction", !0),
+            s.setCurrentRouteName = i(l + "routeName", !0),
+            n.exports = newrelic,
+            s.interaction = function () {
+              return (new r).get()
+            };
+            var m = r.prototype = {
+              createTracer: function (e, n) {
+                var t = {},
+                  r = this,
+                  i = "function" == typeof n;
+                return o(d + "tracer", [
+                  u.now(), e, t
+                ], r),
+                function () {
+                  if (c.emit((
+                    i
+                      ? ""
+                      : "no-"
+                  ) + "fn-start", [
+                    u.now(), r, i
+                  ], t), i)
+                    try {
+                      return n.apply(this, arguments)
+                    } catch (e) {
+                      throw c.emit("fn-err", [
+                        arguments, this, e
+                      ], t),
+                      e
+                    }
+                  finally {
+                    c.emit("fn-end", [u.now()], t)
+                  }
+                }
+              }
+            };
+            a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function (e, n) {
+              m[n] = i(d + n)
+            }),
+            newrelic.noticeError = function (e, n) {
+              "string" == typeof e && (e = new Error(e)),
+              o("err", [
+                e, u.now(), !1,
+                n
+              ])
+            }
+          }, {}
+        ],
+        2: [
+          function (e, n, t) {
+            function r(e, n) {
+              var t = e.getEntries();
+              t.forEach(function (e) {
+                "first-paint" === e.name
+                  ? c("timing", [
+                    "fp",
+                    Math.floor(e.startTime)
+                  ])
+                  : "first-contentful-paint" === e.name && c("timing", [
+                    "fcp",
+                    Math.floor(e.startTime)
+                  ])
+              })
+            }
+            function i(e, n) {
+              var t = e.getEntries();
+              t.length > 0 && c("lcp", [t[t.length - 1]])
+            }
+            function o(e) {
+              if (e instanceof s && !l) {
+                var n,
+                  t = Math.round(e.timeStamp);
+                n = t > 1e12
+                  ? Date.now() - t
+                  : u.now() - t,
+                l = !0,
+                c("timing", [
+                  "fi",
+                  t, {
+                    type: e.type,
+                    fid: n
+                  }
+                ])
+              }
+            }
+            if (!("init" in NREUM && "page_view_timing" in NREUM.init && "enabled" in NREUM.init.page_view_timing && NREUM.init.page_view_timing.enabled === !1)) {
+              var a,
+                f,
+                c = e("handle"),
+                u = e("loader"),
+                s = NREUM.o.EV;
+              if ("PerformanceObserver" in window && "function" == typeof window.PerformanceObserver) {
+                a = new PerformanceObserver(r),
+                f = new PerformanceObserver(i);
+                try {
+                  a.observe({entryTypes: ["paint"]}),
+                  f.observe({entryTypes: ["largest-contentful-paint"]})
+                } catch (p) {}
+              }
+              if ("addEventListener" in document) {
+                var l = !1,
+                  d = ["click", "keydown", "mousedown", "pointerdown", "touchstart"];
+                d.forEach(function (e) {
+                  document.addEventListener(e, o, !1)
+                })
+              }
+            }
+          }, {}
+        ],
+        3: [
+          function (e, n, t) {
+            function r(e, n) {
+              if (!i)
+                return !1;
+              if (e !== i)
+                return !1;
+              if (!n)
+                return !0;
+              if (!o)
+                return !1;
+              for (var t = o.split("."), r = n.split("."), a = 0; a < r.length; a++)
+                if (r[a] !== t[a])
+                  return !1;
+            return !0
+            }
+            var i = null,
+              o = null,
+              a = /Version\/(\S+)\s+Safari/;
+            if (navigator.userAgent) {
+              var f = navigator.userAgent,
+                c = f.match(a);
+              c && f.indexOf("Chrome") === -1 && f.indexOf("Chromium") === -1 && (i = "Safari", o = c[1])
+            }
+            n.exports = {
+              agent: i,
+              version: o,
+              match: r
+            }
+          }, {}
+        ],
+        4: [
+          function (e, n, t) {
+            function r(e, n) {
+              var t = [],
+                r = "",
+                o = 0;
+              for (r in e)
+                i.call(e, r) && (t[o] = n(r, e[r]), o += 1);
+              return t
+            }
+            var i = Object.prototype.hasOwnProperty;
+            n.exports = r
+          }, {}
+        ],
+        5: [
+          function (e, n, t) {
+            function r(e, n, t) {
+              n || (n = 0),
+              "undefined" == typeof t && (
+                t = e
+                  ? e.length
+                  : 0
+              );
+              for (var r = -1, i = t - n || 0, o = Array(
+                i < 0
+                  ? 0
+                  : i
+              ); ++r < i;)
+                o[r] = e[n + r];
+              return o
+            }
+            n.exports = r
+          }, {}
+        ],
+        6: [
+          function (e, n, t) {
+            n.exports = {
+              exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart
+            }
+          }, {}
+        ],
+        ee: [
+          function (e, n, t) {
+            function r() {}
+            function i(e) {
+              function n(e) {
+                return e && e instanceof r
+                  ? e
+                  : e
+                    ? c(e, f, o)
+                    : o()
+              }
+              function t(t, r, i, o) {
+                if (!l.aborted || o) {
+                  e && e(t, r, i);
+                  for (var a = n(i), f = v(t), c = f.length, u = 0; u < c; u++)
+                    f[u].apply(a, r);
+                  var p = s[y[t]];
+                  return p && p.push([b, t, r, a]),
+                  a
+                }
+              }
+              function d(e, n) {
+                h[e] = v(e).concat(n)
+              }
+              function m(e, n) {
+                var t = h[e];
+                if (t)
+                  for (var r = 0; r < t.length; r++)
+                    t[r] === n && t.splice(r, 1)
+              }
+              function v(e) {
+                return h[e] || []
+              }
+              function g(e) {
+                return p[e] = p[e] || i(t)
+              }
+              function w(e, n) {
+                u(e, function (e, t) {
+                  n = n || "feature",
+                  y[t] = n,
+                  n in s || (s[n] = [])
+                })
+              }
+              var h = {},
+                y = {},
+                b = {
+                  on: d,
+                  addEventListener: d,
+                  removeEventListener: m,
+                  emit: t,
+                  get: g,
+                  listeners: v,
+                  context: n,
+                  buffer: w,
+                  abort: a,
+                  aborted: !1
+                };
+              return b
+            }
+            function o() {
+              return new r
+            }
+            function a() {
+              (s.api || s.feature) && (l.aborted = !0, s = l.backlog = {})
+            }
+            var f = "nr@context",
+              c = e("gos"),
+              u = e(4),
+              s = {},
+              p = {},
+              l = n.exports = i();
+            l.backlog = s
+          }, {}
+        ],
+        gos: [
+          function (e, n, t) {
+            function r(e, n, t) {
+              if (i.call(e, n))
+                return e[n];
+              var r = t();
+              if (Object.defineProperty && Object.keys)
+                try {
+                  return Object.defineProperty(e, n, {
+                    value: r,
+                    writable: !0,
+                    enumerable: !1
+                  }),
+                  r
+                } catch (o) {}
+              return e[n] = r,
+              r
+            }
+            var i = Object.prototype.hasOwnProperty;
+            n.exports = r
+          }, {}
+        ],
+        handle: [
+          function (e, n, t) {
+            function r(e, n, t, r) {
+              i.buffer([e], r),
+              i.emit(e, n, t)
+            }
+            var i = e("ee").get("handle");
+            n.exports = r,
+            r.ee = i
+          }, {}
+        ],
+        id: [
+          function (e, n, t) {
+            function r(e) {
+              var n = typeof e;
+              return !e || "object" !== n && "function" !== n
+                ? -1
+                : e === window
+                  ? 0
+                  : a(e, o, function () {
+                    return i++
+                  })
+            }
+            var i = 1,
+              o = "nr@id",
+              a = e("gos");
+            n.exports = r
+          }, {}
+        ],
+        loader: [
+          function (e, n, t) {
+            function r() {
+              if (!x++) {
+                var e = E.info = NREUM.info,
+                  n = d.getElementsByTagName("script")[0];
+                if (setTimeout(s.abort, 3e4), !(e && e.licenseKey && e.applicationID && n))
+                  return s.abort();
+                u(y, function (n, t) {
+                  e[n] || (e[n] = t)
+                }),
+                c("mark", [
+                  "onload", a() + E.offset
+                ], null, "api");
+                var t = d.createElement("script");
+                t.src = "https://" + e.agent,
+                n.parentNode.insertBefore(t, n)
+              }
+            }
+            function i() {
+              "complete" === d.readyState && o()
+            }
+            function o() {
+              c("mark", [
+                "domContent", a() + E.offset
+              ], null, "api")
+            }
+            function a() {
+              return O.exists && performance.now
+                ? Math.round(performance.now())
+                : (f = Math.max((new Date).getTime(), f)) - E.offset
+            }
+            var f = (new Date).getTime(),
+              c = e("handle"),
+              u = e(4),
+              s = e("ee"),
+              p = e(3),
+              l = window,
+              d = l.document,
+              m = "addEventListener",
+              v = "attachEvent",
+              g = l.XMLHttpRequest,
+              w = g && g.prototype;
+            NREUM.o = {
+              ST: setTimeout,
+              SI: l.setImmediate,
+              CT: clearTimeout,
+              XHR: g,
+              REQ: l.Request,
+              EV: l.Event,
+              PR: l.Promise,
+              MO: l.MutationObserver
+            };
+            var h = "" + location,
+              y = {
+                beacon: "bam.nr-data.net",
+                errorBeacon: "bam.nr-data.net",
+                agent: "js-agent.newrelic.com/nr-1173.min.js"
+              },
+              b = g && w && w[m] && !/CriOS/.test(navigator.userAgent),
+              E = n.exports = {
+                offset: f,
+                now: a,
+                origin: h,
+                features: {},
+                xhrWrappable: b,
+                userAgent: p
+              };
+            e(1),
+            e(2),
+            d[m]
+              ? (d[m]("DOMContentLoaded", o, !1), l[m]("load", r, !1))
+              : (d[v]("onreadystatechange", i), l[v]("onload", r)),
+            c("mark", [
+              "firstbyte", f
+            ], null, "api");
+            var x = 0,
+              O = e(6)
+          }, {}
+        ],
+        "wrap-function": [
+          function (e, n, t) {
+            function r(e) {
+              return !(e && e instanceof Function && e.apply && !e[a])
+            }
+            var i = e("ee"),
+              o = e(5),
+              a = "nr@original",
+              f = Object.prototype.hasOwnProperty,
+              c = !1;
+            n.exports = function (e, n) {
+              function t(e, n, t, i) {
+                function nrWrapper() {
+                  var r,
+                    a,
+                    f,
+                    c;
+                  try {
+                    a = this,
+                    r = o(arguments),
+                    f = "function" == typeof t
+                      ? t(r, a)
+                      : t || {}
+                  } catch (u) {
+                    l([
+                      u,
+                      "",
+                      [
+                        r, a, i
+                      ],
+                      f
+                    ])
+                  }
+                  s(n + "start", [
+                    r, a, i
+                  ], f);
+                  try {
+                    return c = e.apply(a, r)
+                  } catch (p) {
+                    throw s(n + "err", [
+                      r, a, p
+                    ], f),
+                    p
+                  } finally {
+                    s(n + "end", [
+                      r, a, c
+                    ], f)
+                  }
+                }
+                return r(e)
+                  ? e
+                  : (n || (n = ""), nrWrapper[a] = e, p(e, nrWrapper), nrWrapper)
+              }
+              function u(e, n, i, o) {
+                i || (i = "");
+                var a,
+                  f,
+                  c,
+                  u = "-" === i.charAt(0);
+                for (c = 0; c < n.length; c++)
+                  f = n[c],
+                  a = e[f],
+                  r(a) || (e[f] = t(
+                    a,
+                    u
+                      ? f + i
+                      : i,
+                    o,
+                    f
+                  ))
+              }
+              function s(t, r, i) {
+                if (!c || n) {
+                  var o = c;
+                  c = !0;
+                  try {
+                    e.emit(t, r, i, n)
+                  } catch (a) {
+                    l([a, t, r, i])
+                  }
+                  c = o
+                }
+              }
+              function p(e, n) {
+                if (Object.defineProperty && Object.keys)
+                  try {
+                    var t = Object.keys(e);
+                    return t.forEach(function (t) {
+                      Object.defineProperty(n, t, {
+                        get: function () {
+                          return e[t]
+                        },
+                        set: function (n) {
+                          return e[t] = n,
+                          n
+                        }
+                      })
+                    }),
+                    n
+                  } catch (r) {
+                    l([r])
+                  }
+                for (var i in e)
+                  f.call(e, i) && (n[i] = e[i]);
+                return n
+              }
+              function l(n) {
+                try {
+                  e.emit("internal-error", n)
+                } catch (t) {}
+              }
+              return e || (e = i),
+              t.inPlace = u,
+              t.flag = a,
+              t
+            }
+          }, {}
+        ]
+      }, {}, ["loader"]);
+    </script>
+    <meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://2040.planbayarea.org/sites/default/files/favicon_PBA.ico" type="image/vnd.microsoft.icon">
+    <link rel="alternate" hreflang="en" href="./what-is-plan-bay-area-2040">
+
+    <title>What is Plan Bay Area 2040? | Plan Bay Area 2040 Final Plan</title>
+    <link rel="stylesheet" media="all" href="./css/css_wX-YBh3-yFd5o4SkEqDkbCru5MOqCGorTlSs3HQg-Nk.css">
+    <link rel="stylesheet" media="screen" href="./css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css">
+    <link rel="stylesheet" media="all" href="./css/css_cg2zRAeFEhk-eQ7C7wvUEppxJY6LufCoEBw5s7Hcx6o.css">
+    <link rel="stylesheet" media="all" href="./css/css_leGbzOHbUeie_jjUx2FsQ6JbK9e2o-1WwxJORNLujXw.css">
+    <link rel="stylesheet" media="print" href="./css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css">
+    <link rel="stylesheet" media="all" href="./css/css_5KDenbXyqoVNgIjeOtqXoWZvqy1oGgYxomaK37mXdgE.css">
+
+    <!--[if lte IE 8]> <script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script> <![endif]-->
+    <script src="./js/modernizr.min.js"></script>
+    <script src="./js/js_c8LbWbHV1txem3q8oAzuadnL-HiBShaQH_WRviNqT_g.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+
+    <script src="./js/localize.js"></script>
+    <style type="text/css">
+      var {
+        font-style: inherit;
+      }
+      ljs {
+        border: 1px solid rgba(0,0,0,0.5);
+      }
+      ljs,
+      ljs * {
+        cursor: pointer;
+      }
+      ljs:hover {
+        background-color: rgba(255,255,255,0.1);
+      }
+      ljs audio {
+        margin: 5px;
+      }
+    </style><meta name="google" content="notranslate">
+    <script>
+      !function (a) {
+        if (!a.Localize) {
+          a.Localize = {};
+          for (var e = [
+            "translate",
+            "untranslate",
+            "phrase",
+            "initialize",
+            "translatePage",
+            "setLanguage",
+            "getLanguage",
+            "detectLanguage",
+            "getAvailableLanguages",
+            "untranslatePage",
+            "bootstrap",
+            "prefetch",
+            "on",
+            "off"
+          ], t = 0; t < e.length; t++) {
+            a.Localize[e[t]] = function () {}
+          }
+        }
+      }(window);
+    </script>
+
+    <script>
+      Localize.initialize({key: 'LNPs5VhbLODl7', rememberLanguage: true});
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        },
+        i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-99009058-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        #localize-active-lang,
+        #localize-widget a {
+          padding: 0 10px !important;
+          min-width: auto !important;
+          font-size: 13px !important;
+          height: 33px !important;
+          line-height: 32px !important;
+        }
+      }
+      #localize-widget.localize-right {
+        right: 30px;
+      }
+      #localize-widget.localize-left {
+        left: 30px;
+      }
+      #localize-widget,
+      a#localize-widget,
+      div#localize-widget,
+      p#localize-widget,
+      span#localize-widget {
+        background: 0 0;
+        border: 0;
+        font-size: 100%;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+        font-family: sans-serif;
+      }
+      #localize-widget {
+        display: none;
+        max-height: 90%;
+        max-width: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        margin-bottom: 0;
+        margin-top: 0;
+        position: fixed;
+        bottom: 0;
+        z-index: 999999;
+      }
+      #localize-active-lang,
+      #localize-widget-langs a {
+        max-width: 250px;
+        min-width: 120px;
+        text-decoration: none;
+        cursor: pointer;
+        border-bottom: 0;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: clip;
+        white-space: nowrap;
+        box-sizing: border-box;
+      }
+      #localize-widget-langs a {
+        display: none;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 5px;
+      }
+      #localize-active-lang {
+        font-size: 14px !important;
+        text-decoration: none;
+        text-align: center!important;
+        height: 42px;
+        line-height: 42px;
+        font-weight: normal!important;
+        padding: 0 20px;
+        display: block;
+      }
+      #localize-active-lang span {
+        padding: 5px;
+        display: inline-block;
+        border: 3px solid currentColor;
+        border-radius: 10px;
+        margin-bottom: 3px;
+        margin-right: 2px;
+        vertical-align: middle;
+      }
+      #localize-widget.localize-dark {
+        color: #ffffff!important;
+        background: rgba(0,0,0,.8)!important;
+      }
+      #localize-widget.localize-light {
+        color: #000000!important;
+        background: rgba(255,255,255,.8)!important;
+        border: 1px solid #a3a3a3;
+      }
+      .localize-dark #localize-powered-by,
+      .localize-dark a {
+        color: #ffffff!important;
+      }
+      .localize-light #localize-powered-by,
+      .localize-light a {
+        color: #000000!important;
+      }
+      .localize-dark #localize-active-lang {
+        background: #000000!important;
+        color: #ffffff!important;
+      }
+      .localize-light #localize-active-lang {
+        background: #ffffff!important;
+        color: #000000!important;
+      }
+      #localize-widget.localize-left-top,
+      #localize-widget.localize-right-top {
+        top: 0;
+        bottom: auto;
+        margin-top: -1px;
+      }
+      #localize-widget.localize-left-bottom,
+      #localize-widget.localize-right-bottom {
+        margin-bottom: -1px;
+      }
+      #localize-widget.localize-right-bottom,
+      #localize-widget.localize-right-top {
+        right: 30px;
+      }
+      #localize-widget.localize-left-bottom,
+      #localize-widget.localize-left-top {
+        left: 30px;
+      }
+      #localize-widget.localize-left-center,
+      #localize-widget.localize-right-center {
+        top: 50%;
+        bottom: auto;
+        max-height: 45%;
+      }
+      #localize-widget.localize-left-center {
+        left: 0;
+        margin-left: -1px;
+      }
+      #localize-widget.localize-right-center {
+        right: 0;
+        margin-right: -1px;
+      }
+      #localize-powered-by {
+        display: none;
+        width: 100%!important;
+        text-align: center;
+        opacity: 0.8;
+      }
+      #localize-powered-by span {
+        font-size: 10px;
+        padding: 8px 10px;
+        max-width: 250px;
+        height: 40px;
+        line-height: 40px;
+      }
+      #localize-powered-by a {
+        color: inherit;
+      }
+      #localize-powered-by a:hover {
+        text-decoration: none;
+      }
+      #localize-widget.show #localize-widget-langs:not(:empty) {
+        padding-top: 10px;
+      }
+      #localize-widget-langs a:hover {
+        opacity: 0.6;
+      }
+      #localize-widget.show #localize-powered-by {
+        display: block !important;
+      }
+      #localize-widget.show #localize-widget-langs a {
+        display: block !important;
+      }
+      @media (hover: hover), screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #localize-widget:hover #localize-widget-langs:not(:empty) {
+          padding-top: 10px;
+        }
+        #localize-widget:hover #localize-widget-langs a {
+          display: block !important;
+        }
+        #localize-widget:hover #localize-powered-by {
+          display: block !important;
+        }
+      }
+    </style>
+    <style type="text/css">
+      .fancybox-margin {
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body class="toolbar-tray-open toolbar-horizontal toolbar-fixed layout-no-sidebars" style="padding-top: 79px;" data-gr-c-s-loaded="true">
+    <div id="toolbar-administration" role="group" aria-label="Site administration toolbar" class="toolbar toolbar-oriented">
+      <nav id="toolbar-bar" role="navigation" aria-label="Toolbar items" class="toolbar-bar clearfix" data-offset-top="">
+        <h2 class="visually-hidden">Toolbar items</h2>
+        <div class="home-toolbar-tab toolbar-tab" style="">
+          <a href="http://2040.planbayarea.org/" class="toolbar-icon toolbar-icon-escape-admin toolbar-item" data-toolbar-escape-admin="">Back to site</a>
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+        <div class="toolbar-tab">
+          <a
+            href="http://2040.planbayarea.org/admin"
+            class="toolbar-icon toolbar-icon-menu trigger toolbar-item is-active"
+            data-drupal-subtrees=""
+            id="toolbar-item-administration"
+            data-toolbar-tray="toolbar-item-administration-tray"
+            role="button"
+            aria-pressed="false">Manage</a>
+          <div id="toolbar-item-administration-tray" data-toolbar-tray="toolbar-item-administration-tray" class="toolbar-tray is-active toolbar-tray-horizontal" data-offset-top="">
+            <nav class="toolbar-lining clearfix" role="navigation" aria-label="Administration menu">
+              <h3 class="toolbar-tray-name visually-hidden">Administration menu</h3>
+              <div class="toolbar-menu-administration">
+                <ul class="clearfix toolbar-menu">
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/" class="toolbar-icon toolbar-icon-admin-toolbar-tools-help" data-drupal-link-system-path="&lt;front&gt;">Tools</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/index" class="toolbar-icon toolbar-icon-system-admin-index" data-drupal-link-system-path="admin/index">Index</a>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/flush?token=v5f60ptQsRVbp_-nwRDHvtOQrRvkE7bydgAYSJ-0Z_0" class="toolbar-icon toolbar-icon-admin-toolbar-tools-flush" data-drupal-link-system-path="admin/flush">Flush all caches</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/cssjs?token=HwuMu-LpBrmuF9MyxKiPiAIkCwz4Bx2zK1ZCmrkuHK0" class="toolbar-icon toolbar-icon-admin-toolbar-tools-cssjs" data-drupal-link-system-path="admin/flush/cssjs">Flush CSS and Javascript</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/plugin?token=d5-n9P9DQX0uL5izZh9kyf1KRCgiwErh5en-BAd4HC8" class="toolbar-icon toolbar-icon-admin-toolbar-tools-plugin" data-drupal-link-system-path="admin/flush/plugin">Flush plugins cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/rendercache?token=jNlIHa-2NyQc-6mKKPvZ-0e9sFG1PBVtTd7zCQ64zPE" class="toolbar-icon toolbar-icon-admin-toolbar-tools-flush-rendercache" data-drupal-link-system-path="admin/flush/rendercache">Flush render cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/menu?token=0rmSgyXNWGtS4Pm2D6lJthgtmx36zfi-Hjoc7zFObU0" class="toolbar-icon toolbar-icon-admin-toolbar-tools-flush-menu" data-drupal-link-system-path="admin/flush/menu">Flush routing and links cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/static-caches?token=c4N-JX8w8HZTUdHUYfDEo4dJuQkFRgVONbcxQ5JENYQ" class="toolbar-icon toolbar-icon-admin-toolbar-tools-flush-static" data-drupal-link-system-path="admin/flush/static-caches">Flush static cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/twig?token=lylAeqJkHNRXycK8txcWI0tyQMSty9-_GOtRkuw_cMM" class="toolbar-icon toolbar-icon-admin-toolbar-tools-flush-twig" data-drupal-link-system-path="admin/flush/twig">Flush twig cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/views?token=x4juKJxJRn-3VKVj9o0VLOp7ijJRwTVZybpc-3bXw1I" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksflush-views" data-drupal-link-system-path="admin/flush/views">Flush views cache</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/flush/theme_rebuild?token=DPEQC4mZXI3TmTGXzadKFRnGsNCFfdo8sr9vOWVU2VU" class="toolbar-icon toolbar-icon-admin-toolbar-tools-theme-rebuild" data-drupal-link-system-path="admin/flush/theme_rebuild">Rebuild theme registry</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/run-cron?token=t_zCfV0eSGxl_GaC-Gj9rIHAOr4lSl8CfCSLB-dYxA0" class="toolbar-icon toolbar-icon-system-run-cron" data-drupal-link-system-path="run-cron">Run cron</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/update.php" class="toolbar-icon toolbar-icon-system-db-update" data-drupal-link-system-path="update.php">Run updates</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/user/logout" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksuser-logout" data-drupal-link-system-path="user/logout">Logout</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/content" class="toolbar-icon toolbar-icon-system-admin-content" data-drupal-link-system-path="admin/content">Content</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/node/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add" data-drupal-link-system-path="node/add">Add content</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/about" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-about" data-drupal-link-system-path="node/add/about">About</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/about_items" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-about-items" data-drupal-link-system-path="node/add/about_items">About items</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/article" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-article" data-drupal-link-system-path="node/add/article">Article</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/page" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-page" data-drupal-link-system-path="node/add/page">Basic page</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/footer_icons" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-footer-icons" data-drupal-link-system-path="node/add/footer_icons">Footer Icons</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/report" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-report" data-drupal-link-system-path="node/add/report">Report</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/report_items" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-report-items" data-drupal-link-system-path="node/add/report_items">Report items</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/video_items" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-video-items" data-drupal-link-system-path="node/add/video_items">Video Items</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/node/add/video" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-add-video" data-drupal-link-system-path="node/add/video">Video Page</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/content/comment" class="toolbar-icon toolbar-icon-comment-admin" data-drupal-link-system-path="admin/content/comment">Comments</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/content/files" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksview-files" data-drupal-link-system-path="admin/content/files">Files</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/structure" class="toolbar-icon toolbar-icon-system-admin-structure" data-drupal-link-system-path="admin/structure">Structure</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/block" class="toolbar-icon toolbar-icon-block-admin-display" data-drupal-link-system-path="admin/structure/block">Block layout</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/block/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksblock-content-add-page" data-drupal-link-system-path="block/add">Add custom block</a>
+                          </li>
+                          <li class="menu-item">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/block/block-content/types"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-block-content-type-collection"
+                              data-drupal-link-system-path="admin/structure/block/block-content/types">Block types</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/block/block-content" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-block-content-collection" data-drupal-link-system-path="admin/structure/block/block-content">Custom block library</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/comment" class="toolbar-icon toolbar-icon-entity-comment-type-collection" data-drupal-link-system-path="admin/structure/comment">Comment types</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/comment/manage/comment" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-type-edit-form-comment" data-drupal-link-system-path="admin/structure/comment/manage/comment">Default comments</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/comment/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-field-ui-fieldscomment"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/comment/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/comment/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-comment-defaultcomment"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/comment/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/comment/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-comment-default-comment"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/comment/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/comment/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-type-delete-form-comment"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/comment/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/comment/manage/feedback"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-type-edit-form-feedback"
+                              data-drupal-link-system-path="admin/structure/comment/manage/feedback">Feedback</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/feedback/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-field-ui-fieldsfeedback"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/feedback/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/feedback/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-comment-defaultfeedback"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/feedback/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/feedback/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-comment-default-feedback"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/feedback/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/comment/manage/feedback/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-comment-type-delete-form-feedback"
+                                  data-drupal-link-system-path="admin/structure/comment/manage/feedback/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/contact" class="toolbar-icon toolbar-icon-entity-contact-form-collection" data-drupal-link-system-path="admin/structure/contact">Contact forms</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/contact/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkscontact-form-add" data-drupal-link-system-path="admin/structure/contact/add">Add contact form</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/contact/manage/personal"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-form-edit-form-personal"
+                              data-drupal-link-system-path="admin/structure/contact/manage/personal">Personal contact form</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/personal/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-message-field-ui-fieldspersonal"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/personal/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/personal/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-contact-message-defaultpersonal"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/personal/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/personal/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-contact-message-default-personal"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/personal/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/personal/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-form-delete-form-personal"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/personal/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/contact/manage/feedback"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-form-edit-form-feedback"
+                              data-drupal-link-system-path="admin/structure/contact/manage/feedback">Website feedback</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/feedback/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-message-field-ui-fieldsfeedback"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/feedback/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/feedback/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-contact-message-defaultfeedback"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/feedback/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/feedback/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-contact-message-default-feedback"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/feedback/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/contact/manage/feedback/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-contact-form-delete-form-feedback"
+                                  data-drupal-link-system-path="admin/structure/contact/manage/feedback/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/types" class="toolbar-icon toolbar-icon-entity-node-type-collection" data-drupal-link-system-path="admin/structure/types">Content types</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksnode-type-add" data-drupal-link-system-path="admin/structure/types/add">Add content type</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/manage/about" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-about" data-drupal-link-system-path="admin/structure/types/manage/about">About</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsabout"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultabout"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-about"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-about"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/types/manage/about_items"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-about-items"
+                              data-drupal-link-system-path="admin/structure/types/manage/about_items">About items</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about_items/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsabout-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about_items/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about_items/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultabout-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about_items/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about_items/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-about-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about_items/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/about_items/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-about-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/about_items/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/manage/article" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-article" data-drupal-link-system-path="admin/structure/types/manage/article">Article</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/article/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsarticle"
+                                  data-drupal-link-system-path="admin/structure/types/manage/article/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/article/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultarticle"
+                                  data-drupal-link-system-path="admin/structure/types/manage/article/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/article/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-article"
+                                  data-drupal-link-system-path="admin/structure/types/manage/article/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/article/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-article"
+                                  data-drupal-link-system-path="admin/structure/types/manage/article/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/manage/page" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-page" data-drupal-link-system-path="admin/structure/types/manage/page">Basic page</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/types/manage/page/fields" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldspage" data-drupal-link-system-path="admin/structure/types/manage/page/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/page/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultpage"
+                                  data-drupal-link-system-path="admin/structure/types/manage/page/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/page/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-page"
+                                  data-drupal-link-system-path="admin/structure/types/manage/page/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/types/manage/page/delete" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-page" data-drupal-link-system-path="admin/structure/types/manage/page/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/types/manage/footer_icons"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-footer-icons"
+                              data-drupal-link-system-path="admin/structure/types/manage/footer_icons">Footer Icons</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/footer_icons/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsfooter-icons"
+                                  data-drupal-link-system-path="admin/structure/types/manage/footer_icons/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/footer_icons/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultfooter-icons"
+                                  data-drupal-link-system-path="admin/structure/types/manage/footer_icons/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/footer_icons/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-footer-icons"
+                                  data-drupal-link-system-path="admin/structure/types/manage/footer_icons/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/footer_icons/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-footer-icons"
+                                  data-drupal-link-system-path="admin/structure/types/manage/footer_icons/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/manage/report" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-report" data-drupal-link-system-path="admin/structure/types/manage/report">Report</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsreport"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultreport"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-report"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-report"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/types/manage/report_items"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-report-items"
+                              data-drupal-link-system-path="admin/structure/types/manage/report_items">Report items</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report_items/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsreport-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report_items/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report_items/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultreport-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report_items/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report_items/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-report-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report_items/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/report_items/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-report-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/report_items/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/types/manage/video_items"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-video-items"
+                              data-drupal-link-system-path="admin/structure/types/manage/video_items">Video Items</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video_items/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsvideo-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video_items/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video_items/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultvideo-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video_items/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video_items/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-video-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video_items/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video_items/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-video-items"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video_items/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/types/manage/video" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-edit-form-video" data-drupal-link-system-path="admin/structure/types/manage/video">Video Page</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-field-ui-fieldsvideo"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-node-defaultvideo"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-node-default-video"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/types/manage/video/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-node-type-delete-form-video"
+                                  data-drupal-link-system-path="admin/structure/types/manage/video/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/display-modes" class="toolbar-icon toolbar-icon-field-ui-display-mode" data-drupal-link-system-path="admin/structure/display-modes">Display modes</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/display-modes/form" class="toolbar-icon toolbar-icon-entity-entity-form-mode-collection" data-drupal-link-system-path="admin/structure/display-modes/form">Form modes</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/display-modes/form/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksfield-ui-entity-form-mode-add" data-drupal-link-system-path="admin/structure/display-modes/form/add">Add form mode</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/display-modes/view" class="toolbar-icon toolbar-icon-entity-entity-view-mode-collection" data-drupal-link-system-path="admin/structure/display-modes/view">View modes</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/display-modes/view/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksfield-ui-entity-view-mode-add" data-drupal-link-system-path="admin/structure/display-modes/view/add">Add view mode</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/menu" class="toolbar-icon toolbar-icon-entity-menu-collection" data-drupal-link-system-path="admin/structure/menu">Menus</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-form" data-drupal-link-system-path="admin/structure/menu/add">Add menu</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/manage/admin" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-edit-form-admin" data-drupal-link-system-path="admin/structure/menu/manage/admin">Administration</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/menu/manage/admin/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-link-form-admin" data-drupal-link-system-path="admin/structure/menu/manage/admin/add">Add link</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/manage/footer" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-edit-form-footer" data-drupal-link-system-path="admin/structure/menu/manage/footer">Footer</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/menu/manage/footer/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-link-form-footer" data-drupal-link-system-path="admin/structure/menu/manage/footer/add">Add link</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/manage/main" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-edit-form-main" data-drupal-link-system-path="admin/structure/menu/manage/main">Main navigation</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/menu/manage/main/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-link-form-main" data-drupal-link-system-path="admin/structure/menu/manage/main/add">Add link</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/manage/tools" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-edit-form-tools" data-drupal-link-system-path="admin/structure/menu/manage/tools">Tools</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/menu/manage/tools/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-link-form-tools" data-drupal-link-system-path="admin/structure/menu/manage/tools/add">Add link</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/menu/manage/account" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-edit-form-account" data-drupal-link-system-path="admin/structure/menu/manage/account">User account menu</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/menu/manage/account/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-menu-add-link-form-account" data-drupal-link-system-path="admin/structure/menu/manage/account/add">Add link</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/paragraphs_type" class="toolbar-icon toolbar-icon-entity-paragraphs-type-collection" data-drupal-link-system-path="admin/structure/paragraphs_type">Paragraph types</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/paragraphs_type/add" class="toolbar-icon toolbar-icon-paragraphs-type-add" data-drupal-link-system-path="admin/structure/paragraphs_type/add">Add paragraph type</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/paragraphs_type/article_images"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-edit-form-article-images"
+                              data-drupal-link-system-path="admin/structure/paragraphs_type/article_images">Article Images</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/article_images/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraph-field-ui-fieldsarticle-images"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/article_images/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/article_images/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-paragraph-defaultarticle-images"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/article_images/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/article_images/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-paragraph-default-article-images"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/article_images/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/article_images/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-delete-form-article-images"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/article_images/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/paragraphs_type/button_items"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-edit-form-button-items"
+                              data-drupal-link-system-path="admin/structure/paragraphs_type/button_items">Button Items</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/button_items/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraph-field-ui-fieldsbutton-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/button_items/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/button_items/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-paragraph-defaultbutton-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/button_items/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/button_items/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-paragraph-default-button-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/button_items/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/button_items/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-delete-form-button-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/button_items/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/paragraphs_type/content"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-edit-form-content"
+                              data-drupal-link-system-path="admin/structure/paragraphs_type/content">Content</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/content/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraph-field-ui-fieldscontent"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/content/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/content/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-paragraph-defaultcontent"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/content/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/content/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-paragraph-default-content"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/content/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/content/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-delete-form-content"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/content/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/structure/paragraphs_type/items" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-edit-form-items" data-drupal-link-system-path="admin/structure/paragraphs_type/items">Items</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/items/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraph-field-ui-fieldsitems"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/items/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/items/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-paragraph-defaultitems"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/items/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/items/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-paragraph-default-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/items/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/items/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-delete-form-items"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/items/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/paragraphs_type/links_list"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-edit-form-links-list"
+                              data-drupal-link-system-path="admin/structure/paragraphs_type/links_list">Links List</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/links_list/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraph-field-ui-fieldslinks-list"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/links_list/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/links_list/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-paragraph-defaultlinks-list"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/links_list/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/links_list/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-paragraph-default-links-list"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/links_list/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/paragraphs_type/links_list/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-paragraphs-type-delete-form-links-list"
+                                  data-drupal-link-system-path="admin/structure/paragraphs_type/links_list/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/taxonomy" class="toolbar-icon toolbar-icon-entity-taxonomy-vocabulary-collection" data-drupal-link-system-path="admin/structure/taxonomy">Taxonomy</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/taxonomy/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-taxonomy-vocabulary-add-form" data-drupal-link-system-path="admin/structure/taxonomy/add">Add vocabulary</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags/overview"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-taxonomy-vocabulary-overview-form-tags"
+                              data-drupal-link-system-path="admin/structure/taxonomy/manage/tags/overview">Tags</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-taxonomy-vocabulary-edit-form-tags" data-drupal-link-system-path="admin/structure/taxonomy/manage/tags">Edit</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags/overview/fields"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-taxonomy-term-field-ui-fieldstags"
+                                  data-drupal-link-system-path="admin/structure/taxonomy/manage/tags/overview/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags/overview/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-taxonomy-term-defaulttags"
+                                  data-drupal-link-system-path="admin/structure/taxonomy/manage/tags/overview/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags/overview/display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-taxonomy-term-default-tags"
+                                  data-drupal-link-system-path="admin/structure/taxonomy/manage/tags/overview/display">Manage display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/structure/taxonomy/manage/tags/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-taxonomy-vocabulary-delete-form-tags"
+                                  data-drupal-link-system-path="admin/structure/taxonomy/manage/tags/delete">Delete</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/structure/views" class="toolbar-icon toolbar-icon-entity-view-collection" data-drupal-link-system-path="admin/structure/views">Views</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/structure/views/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksviews-ui-add" data-drupal-link-system-path="admin/structure/views/add">Add view</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/appearance" class="toolbar-icon toolbar-icon-system-themes-page" data-drupal-link-system-path="admin/appearance">Appearance</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/appearance/settings" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkssystem-theme-settings" data-drupal-link-system-path="admin/appearance/settings">Settings</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/appearance/settings/bartik" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkssystem-theme-settings-theme-bartik" data-drupal-link-system-path="admin/appearance/settings/bartik">Bartik</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/appearance/settings/bayarea" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkssystem-theme-settings-theme-bayarea" data-drupal-link-system-path="admin/appearance/settings/bayarea">Bayarea</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/appearance/settings/seven" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkssystem-theme-settings-theme-seven" data-drupal-link-system-path="admin/appearance/settings/seven">Seven</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/modules" class="toolbar-icon toolbar-icon-system-modules-list" data-drupal-link-system-path="admin/modules">Extend</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/modules/uninstall" class="toolbar-icon toolbar-icon-system-modules-uninstall" data-drupal-link-system-path="admin/modules/uninstall">Uninstall module</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/config" class="toolbar-icon toolbar-icon-system-admin-config" data-drupal-link-system-path="admin/config">Configuration</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/people" class="toolbar-icon toolbar-icon-user-admin-index" data-drupal-link-system-path="admin/config/people">People</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/config/people/accounts" class="toolbar-icon toolbar-icon-entity-user-admin-form" data-drupal-link-system-path="admin/config/people/accounts">Account settings</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/people/accounts/fields" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-field-ui-fields-" data-drupal-link-system-path="admin/config/people/accounts/fields">Manage fields</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/config/people/accounts/form-display"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-form-display-user-default-"
+                                  data-drupal-link-system-path="admin/config/people/accounts/form-display">Manage form display</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/people/accounts/display" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-entity-view-display-user-default-" data-drupal-link-system-path="admin/config/people/accounts/display">Manage display</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/system" class="toolbar-icon toolbar-icon-system-admin-config-system" data-drupal-link-system-path="admin/config/system">System</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/system/acquia-connector" class="toolbar-icon toolbar-icon-acquia-connector-settings" data-drupal-link-system-path="admin/config/system/acquia-connector">Acquia Connector settings</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/system/site-information" class="toolbar-icon toolbar-icon-system-site-information-settings" data-drupal-link-system-path="admin/config/system/site-information">Basic site settings</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/system/cron" class="toolbar-icon toolbar-icon-system-cron-settings" data-drupal-link-system-path="admin/config/system/cron">Cron</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/system/delete-orphans" class="toolbar-icon toolbar-icon-entity-reference-revisions-delete-orphans" data-drupal-link-system-path="admin/config/system/delete-orphans">Delete orphaned composite entities</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/admin_settings/settings" class="toolbar-icon toolbar-icon-admin-settings-settings-form" data-drupal-link-system-path="admin/config/admin_settings/settings">General Settings</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/content" class="toolbar-icon toolbar-icon-system-admin-config-content" data-drupal-link-system-path="admin/config/content">Content authoring</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/content/paragraphs" class="toolbar-icon toolbar-icon-paragraphs-settings" data-drupal-link-system-path="admin/config/content/paragraphs">Paragraphs settings</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/content/formats" class="toolbar-icon toolbar-icon-filter-admin-overview" data-drupal-link-system-path="admin/config/content/formats">Text formats and editors</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/user-interface" class="toolbar-icon toolbar-icon-system-admin-config-ui" data-drupal-link-system-path="admin/config/user-interface">User interface</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/user-interface/shortcut" class="toolbar-icon toolbar-icon-entity-shortcut-set-collection" data-drupal-link-system-path="admin/config/user-interface/shortcut">Shortcuts</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/development" class="toolbar-icon toolbar-icon-system-admin-config-development" data-drupal-link-system-path="admin/config/development">Development</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/development/performance" class="toolbar-icon toolbar-icon-system-performance-settings" data-drupal-link-system-path="admin/config/development/performance">Performance</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/development/logging" class="toolbar-icon toolbar-icon-system-logging-settings" data-drupal-link-system-path="admin/config/development/logging">Logging and errors</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/development/maintenance" class="toolbar-icon toolbar-icon-system-site-maintenance-mode" data-drupal-link-system-path="admin/config/development/maintenance">Maintenance mode</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/config/development/configuration" class="toolbar-icon toolbar-icon-config-sync" data-drupal-link-system-path="admin/config/development/configuration">Configuration synchronization</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/development/configuration/full/import" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksconfig-import" data-drupal-link-system-path="admin/config/development/configuration/full/import">Import</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/development/configuration/full/export" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksconfig-export" data-drupal-link-system-path="admin/config/development/configuration/full/export">Export</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/yoast_seo" class="toolbar-icon toolbar-icon-yoast-seo-admin" data-drupal-link-system-path="admin/config/yoast_seo">Real-time SEO Admin Settings</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/media" class="toolbar-icon toolbar-icon-system-admin-config-media" data-drupal-link-system-path="admin/config/media">Media</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/media/file-system" class="toolbar-icon toolbar-icon-system-file-system-settings" data-drupal-link-system-path="admin/config/media/file-system">File system</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/media/image-styles" class="toolbar-icon toolbar-icon-entity-image-style-collection" data-drupal-link-system-path="admin/config/media/image-styles">Image styles</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/media/image-toolkit" class="toolbar-icon toolbar-icon-system-image-toolkit-settings" data-drupal-link-system-path="admin/config/media/image-toolkit">Image toolkit</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/search" class="toolbar-icon toolbar-icon-system-admin-config-search" data-drupal-link-system-path="admin/config/search">Search and metadata</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/search/pages" class="toolbar-icon toolbar-icon-entity-search-page-collection" data-drupal-link-system-path="admin/config/search/pages">Search pages</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/search/path" class="toolbar-icon toolbar-icon-entity-path-alias-collection" data-drupal-link-system-path="admin/config/search/path">URL aliases</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/config/search/metatag" class="toolbar-icon toolbar-icon-entity-metatag-defaults-collection" data-drupal-link-system-path="admin/config/search/metatag">Metatag</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/search/metatag/settings" class="toolbar-icon toolbar-icon-metatag-settings" data-drupal-link-system-path="admin/config/search/metatag/settings">Settings</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/search/search-api" class="toolbar-icon toolbar-icon-search-api-overview" data-drupal-link-system-path="admin/config/search/search-api">Search API</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/regional" class="toolbar-icon toolbar-icon-system-admin-config-regional" data-drupal-link-system-path="admin/config/regional">Regional and language</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/settings" class="toolbar-icon toolbar-icon-system-regional-settings" data-drupal-link-system-path="admin/config/regional/settings">Regional settings</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/date-time" class="toolbar-icon toolbar-icon-entity-date-format-collection" data-drupal-link-system-path="admin/config/regional/date-time">Date and time formats</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/language" class="toolbar-icon toolbar-icon-entity-configurable-language-collection" data-drupal-link-system-path="admin/config/regional/language">Languages</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/regional/language/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkslanguage-add" data-drupal-link-system-path="admin/config/regional/language/add">Add language</a>
+                              </li>
+                              <li class="menu-item">
+                                <a href="http://2040.planbayarea.org/admin/config/regional/language/detection" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linkslanguage-negotiation" data-drupal-link-system-path="admin/config/regional/language/detection">Detection and selection</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/content-language" class="toolbar-icon toolbar-icon-language-content-settings-page" data-drupal-link-system-path="admin/config/regional/content-language">Content language and translation</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/translate" class="toolbar-icon toolbar-icon-locale-translate-page" data-drupal-link-system-path="admin/config/regional/translate">User interface translation</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/regional/config-translation" class="toolbar-icon toolbar-icon-config-translation-mapper-list" data-drupal-link-system-path="admin/config/regional/config-translation">Configuration translation</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/security" class="toolbar-icon toolbar-icon-password-policy-admin-index" data-drupal-link-system-path="admin/config/security">Security</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/security/password-policy" class="toolbar-icon toolbar-icon-entity-password-policy-collection" data-drupal-link-system-path="admin/config/security/password-policy">Password Policy</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/config/services" class="toolbar-icon toolbar-icon-system-admin-config-services" data-drupal-link-system-path="admin/config/services">Web services</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/services/cdn" class="toolbar-icon toolbar-icon-cdn-ui-admin-overview" data-drupal-link-system-path="admin/config/services/cdn">CDN integration</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/config/services/rss-publishing" class="toolbar-icon toolbar-icon-system-rss-feeds-settings" data-drupal-link-system-path="admin/config/services/rss-publishing">RSS publishing</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/config/workflow" class="toolbar-icon toolbar-icon-system-admin-config-workflow" data-drupal-link-system-path="admin/config/workflow">Workflow</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/people" class="toolbar-icon toolbar-icon-entity-user-collection" data-drupal-link-system-path="admin/people">People</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/people/create" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksuser-admin-create" data-drupal-link-system-path="admin/people/create">Add user</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/people/permissions" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksuser-admin-permissions" data-drupal-link-system-path="admin/people/permissions">Permissions</a>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/people/roles" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-collection" data-drupal-link-system-path="admin/people/roles">Roles</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/people/roles/add" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksuser-role-add" data-drupal-link-system-path="admin/people/roles/add">Add role</a>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/people/roles/manage/administrator"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-form-administrator"
+                              data-drupal-link-system-path="admin/people/roles/manage/administrator">Administrator</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/roles/manage/administrator/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-delete-form-administrator"
+                                  data-drupal-link-system-path="admin/people/roles/manage/administrator/delete">Delete</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/permissions/administrator"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-permissions-form-administrator"
+                                  data-drupal-link-system-path="admin/people/permissions/administrator">Edit permissions</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/people/roles/manage/anonymous" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-form-anonymous" data-drupal-link-system-path="admin/people/roles/manage/anonymous">Anonymous user</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/permissions/anonymous"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-permissions-form-anonymous"
+                                  data-drupal-link-system-path="admin/people/permissions/anonymous">Edit permissions</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a
+                              href="http://2040.planbayarea.org/admin/people/roles/manage/authenticated"
+                              class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-form-authenticated"
+                              data-drupal-link-system-path="admin/people/roles/manage/authenticated">Authenticated user</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/permissions/authenticated"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-permissions-form-authenticated"
+                                  data-drupal-link-system-path="admin/people/permissions/authenticated">Edit permissions</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item menu-item--expanded">
+                            <a href="http://2040.planbayarea.org/admin/people/roles/manage/developer" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-form-developer" data-drupal-link-system-path="admin/people/roles/manage/developer">Developer</a>
+                            <ul class="toolbar-menu">
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/roles/manage/developer/delete"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-delete-form-developer"
+                                  data-drupal-link-system-path="admin/people/roles/manage/developer/delete">Delete</a>
+                              </li>
+                              <li class="menu-item">
+                                <a
+                                  href="http://2040.planbayarea.org/admin/people/permissions/developer"
+                                  class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksentity-user-role-edit-permissions-form-developer"
+                                  data-drupal-link-system-path="admin/people/permissions/developer">Edit permissions</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item--expanded">
+                    <a href="http://2040.planbayarea.org/admin/reports" class="toolbar-icon toolbar-icon-system-admin-reports" data-drupal-link-system-path="admin/reports">Reports</a>
+                    <ul class="toolbar-menu">
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/reports/translations" class="toolbar-icon toolbar-icon-locale-translate-status" data-drupal-link-system-path="admin/reports/translations">Available translation updates</a>
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="http://2040.planbayarea.org/admin/reports/fields" class="toolbar-icon toolbar-icon-entity-field-storage-config-collection" data-drupal-link-system-path="admin/reports/fields">Field list</a>
+                        <ul class="toolbar-menu">
+                          <li class="menu-item">
+                            <a href="http://2040.planbayarea.org/admin/reports/fields/views-fields" class="toolbar-icon toolbar-icon-admin-toolbar-tools-extra-linksviews-ui-field-list" data-drupal-link-system-path="admin/reports/fields/views-fields">Used in views</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/reports/metatag-plugins" class="toolbar-icon toolbar-icon-metatag-reports-plugins" data-drupal-link-system-path="admin/reports/metatag-plugins">Metatag plugins</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/reports/status" class="toolbar-icon toolbar-icon-system-status" data-drupal-link-system-path="admin/reports/status">Status report</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://2040.planbayarea.org/admin/reports/views-plugins" class="toolbar-icon toolbar-icon-views-ui-reports-plugins" data-drupal-link-system-path="admin/reports/views-plugins">Views plugins</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a href="http://2040.planbayarea.org/admin/help" class="toolbar-icon toolbar-icon-help-main" data-drupal-link-system-path="admin/help">Help</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toolbar-toggle-orientation" style="display: block;">
+                <div class="toolbar-lining">
+                  <button class="toolbar-icon toolbar-icon-toggle-vertical" type="button" value="vertical" title="Vertical orientation">Vertical orientation</button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="toolbar-tab">
+          <a href="http://2040.planbayarea.org/admin/config/user-interface/shortcut" class="toolbar-icon toolbar-icon-shortcut trigger toolbar-item" id="toolbar-item-shortcuts" data-toolbar-tray="toolbar-item-shortcuts-tray" role="button" aria-pressed="false">Shortcuts</a>
+          <div id="toolbar-item-shortcuts-tray" data-toolbar-tray="toolbar-item-shortcuts-tray" class="toolbar-tray toolbar-tray-horizontal">
+            <nav class="toolbar-lining clearfix" role="navigation" aria-label="User-defined shortcuts">
+              <h3 class="toolbar-tray-name visually-hidden">User-defined shortcuts</h3>
+              <ul class="toolbar-menu">
+                <li>
+                  <a href="http://2040.planbayarea.org/node/add">Add content</a>
+                </li>
+                <li>
+                  <a href="http://2040.planbayarea.org/admin/content">All content</a>
+                </li>
+              </ul>
+              <a href="http://2040.planbayarea.org/admin/config/user-interface/shortcut/manage/default/customize" class="edit-shortcuts">Edit shortcuts</a>
+              <div class="toolbar-toggle-orientation" style="display: block;">
+                <div class="toolbar-lining">
+                  <button class="toolbar-icon toolbar-icon-toggle-vertical" type="button" value="vertical" title="Vertical orientation">Vertical orientation</button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="toolbar-tab">
+
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+        <div class="hidden contextual-toolbar-tab toolbar-tab">
+          <button class="toolbar-icon toolbar-icon-edit toolbar-item" aria-pressed="false" type="button">Edit</button>
+
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+        <div class="tour-toolbar-tab hidden toolbar-tab" id="toolbar-tab-tour">
+          <button class="toolbar-icon toolbar-icon-help toolbar-item" aria-pressed="false" type="button">Tour</button>
+
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+        <div class="toolbar-tab">
+          <a href="http://2040.planbayarea.org/user" class="toolbar-icon toolbar-icon-user trigger toolbar-item" id="toolbar-item-user" data-toolbar-tray="toolbar-item-user-tray" role="button" aria-pressed="false">gustavo</a>
+          <div id="toolbar-item-user-tray" data-toolbar-tray="toolbar-item-user-tray" class="toolbar-tray toolbar-tray-horizontal">
+            <nav class="toolbar-lining clearfix" role="navigation" aria-label="User account actions">
+              <h3 class="toolbar-tray-name visually-hidden">User account actions</h3>
+              <ul class="toolbar-menu">
+                <li class="account">
+                  <a href="http://2040.planbayarea.org/user" title="User account">View profile</a>
+                </li>
+                <li class="account-edit">
+                  <a href="http://2040.planbayarea.org/user/296/edit" title="Edit user account">Edit profile</a>
+                </li>
+                <li class="logout">
+                  <a href="http://2040.planbayarea.org/user/logout">Log out</a>
+                </li>
+              </ul>
+              <div class="toolbar-toggle-orientation" style="display: block;">
+                <div class="toolbar-lining">
+                  <button class="toolbar-icon toolbar-icon-toggle-vertical" type="button" value="vertical" title="Vertical orientation">Vertical orientation</button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div id="admin-toolbar-search-tab" class="toolbar-tab">
+          <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item- form-item- form-no-label">
+            <input id="admin-toolbar-search-input" aria-labelledby="toolbar-item-administration-search" placeholder="Admin Toolbar quick search" type="text" size="30" maxlength="128" class="form-text ui-autocomplete-input" autocomplete="off">
+
+          </div>
+
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+        <div class="toolbar-tab">
+          <a href="https://cloud.acquia.com/app/develop/applications/6b0a6a32-182a-6564-cdd7-1a7243809e71" class="toolbar-icon acquia-active-subscription toolbar-item">Subscription active (expires 2021/1/27)</a>
+          <div>
+            <nav class="toolbar-lining clearfix" role="navigation"></nav>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+      <div class="clearfix region region-header">
+        <div id="block-customheaderblock" class="contextual-region">
+
+          <div class="overlay"></div>
+          <header>
+            <div class="main-content">
+              <a class="logo desktop" href="http://planbayarea.org/">
+                <span class="sr-only">Visit PlanBayArea.org Main Site</span></a>
+              <a class="logo mobile" href="http://2040.planbayarea.org/">
+                <span class="sr-only">Back to Home Page</span></a>
+              <a href="http://2040.planbayarea.org/" class="mobile-home-url">
+                <p class="desktop">Plan Bay Area 2040
+                  <span>Final Plan</span></p>
+                <p class="mobile">
+                  <span>Final</span>
+                  Plan Bay Area 2040</p>
+              </a>
+              <p class="mobile title-from-color-banner">
+                What is Plan Bay Area 2040?
+              </p>
+
+              <div class="right">
+
+                <nav class="menu">
+                  <button class="menu-mobile" role="button" aria-label="open menu">
+                    <div class="part-1"></div>
+                    <div class="horizontal"></div>
+                    <div class="part-2"></div>
+                  </button>
+
+                  <ul>
+
+                    <li class="translate-mobile">
+                      <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#">Translate
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                      </a>
+                      <ul></ul>
+                    </li>
+
+                    <li class="search-mobile">
+                      <form action="http://2040.planbayarea.org/search/node" method="get" data-drupal-form-fields="">
+                        <input type="text" name="keys" placeholder="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </form>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/the-bay-area-today">The Bay Area Today</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040">What is Plan Bay Area 2040?</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/forecasting-the-future">Forecasting the Future</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/strategies-and-performance">Strategies and Performance</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/action-plan">Action Plan</a>
+                    </li>
+
+                    <li class="have-border">
+                      <a href="http://2040.planbayarea.org/about">About</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/videos">Videos</a>
+                    </li>
+                    <li>
+                      <a href="http://2040.planbayarea.org/reports">Reports</a>
+                    </li>
+
+                  </ul>
+                </nav>
+
+                <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#" class="search">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <span class="sr-only">Search</span></a>
+                <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#" class="translate">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <span class="sr-only">Select Language</span></a>
+                <ul class="translate-drop">
+                  <li>
+                    <a href="http://2040.planbayarea.org/en">English</a>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="form-top">
+                <div class="column">
+                  <form action="http://2040.planbayarea.org/search/node" method="get" role="search" data-drupal-form-fields="search_input">
+                    <label class="search-label sr-only" for="search_input">Search this site</label>
+                    <input id="search_input" type="text" name="keys" placeholder="Search here">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </header>
+
+        </div>
+
+      </div>
+
+      <style>
+        .sidebar ul li a,
+        .widget-quote p,
+        .widget-text h3,
+        .widget-text-quote .inner p {
+          color: #C24100 !important;
+        }
+
+        .image-title,
+        .title-from-color-banner,
+        h3 {
+          color: #C24100 !important;
+        }
+      </style>
+
+      <section class="top-banner-color" style="background: #C24100;">
+        <div class="main-content">
+          <div class="inner">
+            <img class="img-opacity" src="./img/theplan_white.png">
+            <a href="http://2040.planbayarea.org/the-bay-area-today" class="prev-arrow">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              <span class="sr-only">go to previous page</span></a>
+            <a href="http://2040.planbayarea.org/forecasting-the-future" class="next-arrow">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              <span class="sr-only">go to next page</span></a>
+            <h1>What is Plan Bay Area 2040?</h1>
+            <h2>Plan Bay Area 2040 is a transportation and land use roadmap for future growth.</h2>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <div class="main-content">
+          <div class="col-xs-3 inner" style="background-color:#fceee6 !important;">
+            <p class="sidebar-header">What is Plan Bay Area 2040?</p>
+            <nav>
+              <ul class="links">
+                <li>
+                  <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#what-does-plan-bay-area-2040-do">What Does Plan Bay Area 2040 Do?</a>
+                </li>
+                <li>
+                  <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#engaging-the-public">Engaging the Public</a>
+                </li>
+                <li>
+                  <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#setting-goals-and-targets-to-address-challenges">Setting Goals and Targets to Address Challenges</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="list-mobile">
+              <li>
+
+                <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#">
+                  Select Section
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+
+                <ul class="list-drop">
+
+                  <li>
+                    <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#what-does-plan-bay-area-2040-do">What Does Plan Bay Area 2040 Do?</a>
+                  </li>
+
+                  <li>
+                    <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#engaging-the-public">Engaging the Public</a>
+                  </li>
+
+                  <li>
+                    <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#setting-goals-and-targets-to-address-challenges">Setting Goals and Targets to Address Challenges</a>
+                  </li>
+
+                </ul>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div id="what-is-plan-bay-area-2040">
+
+        <section class="widget-quote" id="">
+          <div class="main-content">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+              <div class="inner">
+                <p>Plan Bay Area 2040 is a state-mandated, integrated long-range transportation and land use plan. As required by Senate Bill 375, all metropolitan regions in California must complete a Sustainable Communities Strategy (SCS)&nbsp;as part of a
+                  Regional Transportation Plan. In the Bay Area, the Metropolitan Transportation Commission (MTC) and the Association of Bay Area Governments (ABAG) are jointly responsible for developing and adopting a SCS that integrates transportation, land use and
+                  housing to meet greenhouse gas reduction targets set by the California Air Resources Board (CARB).</p>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="widget-image" id="">
+          <div class="main-content">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+              <div class="thump">
+                <a class="link zoom single" title="" href="./img/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
+                  <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  <span class="sr-only">zoom</span></a>
+                <a class="link download" href="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg" download="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                  <span class="sr-only">download</span>
+                </a>
+                <div class="image" style="background-image: url(&#39;/sites/default/files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk-547px.png&#39;);">
+                  <a class="single" title="" href="./img/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
+                    <img src="./img/2_1x San Jose Pedestrians with Blue Crosswalk-547px.png" alt="">
+                  </a>
+                </div>
+                <div class="caption">
+                  <p>
+
+                    <span class="image_description">
+                      Pedestrians in San Jose.
+                      <br>
+                      <span class="image_description">
+
+                        <span class="image_description">
+                          Credit: Martin Klimek
+                        </span>
+                      </span>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="widget-text " id="">
+          <div class="main-content">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+              <p>The region adopted its previous plan — Plan Bay Area — in July 2013. As the Bay Area’s first regional transportation plan to include a Sustainable Communities Strategy, the original Plan Bay Area charted a course for reducing per-capita greenhouse
+                gas emissions through the promotion of more compact, mixed-use residential and commercial neighborhoods near transit.&nbsp;Plan Bay Area supported Priority Development Areas (PDAs) selected and approved by city and county governments with planning
+                grants, technical assistance, and prioritization for regional and state transportation and affordable housing funds.</p>
+
+              <p>Plan Bay Area 2040 is a limited and focused update that builds upon the growth pattern and strategies developed in the original Plan Bay Area but with updated planning assumptions that incorporate key economic, demographic and financial trends
+                from the last four years.</p>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="widget-text-red" id="">
+          <div class="main-content">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+              <div class="inner" style="background-color: #C24100!important;">
+                <h4>MTC and ABAG</h4>
+
+                <p>The Metropolitan Transportation Commission (MTC) is the transportation planning, financing&nbsp;and coordinating agency for the nine-county San Francisco Bay Area. MTC is the federally designated Metropolitan Planning Organization and the state
+                  designated Regional Transportation Planning Agency for the region. MTC is responsible for preparing and updating a long-range regional transportation plan every four years that identifies the strategies and investments needed to maintain,
+                  manage&nbsp;and improve the region’s transportation network.</p>
+
+                <p>The Association of Bay Area Governments (ABAG) serves as the Council of Governments for the region. As required by state law, ABAG updates the Regional Housing Need Allocation (RHNA) every eight years, allocates specific housing targets to
+                  individual cities and counties, and develops the regional forecast of jobs, population and housing. MTC and ABAG recently consolidated their staffs to more effectively and efficiently develop an integrated long-range transportation and land use plan.</p>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="widget-image" id="">
+          <div class="main-content">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+              <div class="thump">
+                <a class="link zoom single" title="" href="./img/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
+                  <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  <span class="sr-only">zoom</span></a>
+                <a class="link download" href="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg" download="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                  <span class="sr-only">download</span>
+                </a>
+                <div class="image" style="background-image: url(&#39;/sites/default/files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial-547px.png&#39;);">
+                  <a class="single" title="" href="./img/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
+                    <img src="./img/2_1 Vacaville Development Drone Aerial-547px.png" alt="">
+                  </a>
+                </div>
+                <div class="caption">
+                  <p>
+
+                    <span class="image_description">
+                      Development in Vacaville, Solano County.<br>
+                      <span class="image_description">
+
+                        <span class="image_description">
+                          Credit: Karl Nielsen
+                        </span>
+                      </span>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <article id="what-does-plan-bay-area-2040-do">
+          <section class="widget-text ">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <h3>What Does Plan Bay Area 2040 Do?</h3>
+                <p>Plan Bay Area 2040 provides a roadmap for accommodating projected household and employment growth in the nine-county Bay Area by 2040 as well as a transportation investment strategy for the region. Plan Bay Area 2040 details how the Bay Area can
+                  make progress toward the region’s long-range transportation and land use goals.</p>
+
+                <p>Plan Bay Area 2040:</p>
+
+                <ul>
+                  <li>
+                    <p>Describes where and how the region can accommodate 820,000 new projected households and 1.3 million new jobs between now and 2040;</p>
+                  </li>
+                  <li>
+                    <p>Details a regional transportation investment strategy given $303 billion in expected revenues from federal, state, regional and local sources over the next 24 years;</p>
+                  </li>
+                  <li>
+                    <p>Complies with Senate Bill 375, the state’s sustainable communities strategy law, which integrates land use and transportation planning and mandates both a reduction in greenhouse gas emissions from passenger vehicles and the provision of adequate
+                      housing for the region’s 24-year projected population growth.</p>
+                  </li>
+                </ul>
+
+                <p>&nbsp;</p>
+
+              </div>
+            </div>
+          </section>
+          <section class="widget-image" id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <div class="thump">
+                  <a class="link zoom single" title="" href="./img/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                    <span class="sr-only">zoom</span></a>
+                  <a class="link download" href="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg" download="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">download</span>
+                  </a>
+                  <div class="image" style="background-image: url(&#39;/sites/default/files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART-547px.png&#39;);">
+                    <a class="single" title="" href="./img/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
+                      <img src="./img/2_2x Housing near West Oakland BART-547px.png" alt="">
+                    </a>
+                  </div>
+                  <div class="caption">
+                    <p>
+
+                      <span class="image_description">
+                        Transit-oriented development in West Oakland allows residents to travel to San Francisco and other nearby cities easily.<br>
+                        <span class="image_description">
+
+                          <span class="image_description">
+                            Credit: Karl Nielsen
+                          </span>
+                        </span>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="widget-text " id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <p>Plan Bay Area 2040 encompasses the entire Bay Area, including the nine counties and the 101 cities and towns that make up the region. The plan is constrained by the amount of expected transportation revenues and expected household and employment
+                  growth.</p>
+
+                <p>Plan Bay Area 2040 neither funds specific transportation projects nor changes local land use policies. Importantly, individual jurisdictions retain all local land use authority. But Plan Bay Area 2040 does set a roadmap for future transportation
+                  investments and identifies what it would take to accommodate expected growth.</p>
+
+              </div>
+            </div>
+          </section>
+          <section class="widget-text-red" id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <div class="inner" style="background-color: #C24100!important;">
+                  <h4>Connecting the Dots: Plan Bay Area 2040 and the California Transportation Plan 2040</h4>
+
+                  <p>Plan Bay Area 2040 establishes a vision for the Bay Area that closely aligns with the broad goals of the state of California. The plan’s goals to promote economic vitality, ensure social equity and protect the environment link to the policy
+                    framework established in
+                    <a href="http://www.dot.ca.gov/hq/tpp/californiatransportationplan2040/2040.html">California Transportation Plan 2040</a>
+                    by the California Department of Transportation. Central to both plans are carbon dioxide (CO2) emissions reduction targets designed to tackle climate change in the years to come. Similarly, both plans prioritize fixing an aging transportation system,
+                    focusing future growth and directing increased funding toward non-auto modes of travel. Both multiyear planning efforts&nbsp; reflect a relatively consistent vision for moving forward for the region’s 8 million people and the state’s 39 million
+                    people. The key to implementation will be working together across local, regional, state and federal levels to achieve these shared goals.</p>
+
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="widget-text-red" id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <div class="inner" style="background-color: #C24100!important;">
+                  <h4>Connecting the Dots: Plan Bay Area 2040 and the Air District’s 2017 Clean Air Plan</h4>
+
+                  <p>The Bay Area Air Quality Management District (Air District) is the region’s air pollution control agency. In April 2017, the Air District adopted the
+                    <a href="http://www.baaqmd.gov/plans-and-climate/air-quality-plans/current-plans">2017 Clean Air Plan</a>, which provides a regional strategy to protect public health and the climate. The Clean Air Plan describes how the region will continue progress
+                    toward attaining all state and federal air quality standards and eliminating health risk disparities from exposure to air pollution. The Clean Air Plan further defines a vision and a regional climate protection strategy for transitioning to a
+                    post-carbon economy and achieving ambitious greenhouse gas reduction targets for 2030 and 2050. While Plan Bay Area 2040 has a requirement to reduce per-capita CO2 emissions from passenger vehicles by 2035, the Air District’s plan addresses a much
+                    wider range of pollutants from a much larger number of sources. To that end, Plan Bay Area 2040 is “one piece of the puzzle.” Additional policies and investments beyond Plan Bay Area 2040 are needed to meet the Air District’s more ambitious targets.</p>
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article id="engaging-the-public">
+          <section class="widget-text ">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <h3>Engaging the Public</h3>
+                <p>Developing a multibillion dollar plan for the region is no simple task. It is a multiyear process involving four regional agencies, nine counties, 101 towns and cities, elected officials, transit operators, planners, community-based organizations,
+                  business organizations, non-profits and the general public.</p>
+
+                <p>Despite this complexity, public participation is critical to an open process in which all interested residents have the opportunity to provide input and share their vision for what the Bay Area should look like decades from now. Highlights from
+                  Plan Bay Area 2040’s public participation process included over 190 public meetings, of which 27 were open houses (three in each of the nine Bay Area counties); partnerships with five community organizations working in low-income communities and
+                  communities of color; public hearings on the draft plan and its environmental impact report; a robust online presence; numerous meetings with local elected officials, planning directors and transportation officials; two summits with Native American
+                  tribal leaders; a housing forum; and a telephone poll of some 2,040 Bay Area residents.</p>
+
+                <p>
+                  <em>For more information on Plan Bay Area 2040’s outreach and engagement process, please see the&nbsp;<a href="./files/FINAL_Public%20Engagement%20Supplemental_PBA2040_w_appendices_8-17.pdf">Public Engagement Program Report</a>
+                    and the
+                  </em>
+                  <a href="./files/Tribal%20Outreach%20Report_FINAL_7-2017.pdf">
+                    <em>Native American Tribal Outreach Report</em>
+                  </a>
+                  <em>.</em>
+                </p>
+
+              </div>
+            </div>
+          </section>
+          <section class="widget-slider" id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <h4 class="sr-only">Image Gallery</h4>
+                <div class="zoom">
+                  <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  <span class="sr-only">click image to view full size</span></div>
+                <div class="owl-carousel owl-theme owl-loaded owl-drag">
+
+                  <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(-2546px, 0px, 0px); transition: all 4s ease 0s; width: 4457px;">
+                      <div class="owl-item cloned" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_4PBA%20Outreach%20-%20Older%20Women.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_4PBA Outreach - Older Women.JPG" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item cloned" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman_0.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_2 PBA Outreach - Young Man &amp; Woman.jpg" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_3%20PBA%20Outreach%20-%20Dave.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_3_PBA_Outreach_-_Dave_1.jpg" alt=" Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_4PBA%20Outreach%20-%20Older%20Women.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_4PBA Outreach - Older Women.JPG" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item active" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman_0.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_2 PBA Outreach - Young Man &amp; Woman.jpg" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item cloned" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_3%20PBA%20Outreach%20-%20Dave.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_3_PBA_Outreach_-_Dave_1.jpg" alt=" Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="owl-item cloned" style="width: 626.656px; margin-right: 10px;">
+                        <div class="item">
+                          <a href="./img/2_4PBA%20Outreach%20-%20Older%20Women.jpg" rel="prettyPhoto[myGallery]" title="">
+                            <img src="./img/2_4PBA Outreach - Older Women.JPG" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                          </a>
+
+                          <div class="caption">
+                            <p>
+
+                              <span class="image_description">
+                                Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                              </span>
+
+                              <span class="image_description">
+                                Credit: Karl Nielsen
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="owl-nav">
+                    <div class="owl-prev">prev</div>
+                    <div class="owl-next">next</div>
+                  </div>
+                  <div class="owl-dots">
+                    <div class="owl-dot">
+                      <span></span>
+                    </div>
+                    <div class="owl-dot">
+                      <span></span>
+                    </div>
+                    <div class="owl-dot active">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article id="setting-goals-and-targets-to-address-challenges">
+          <section class="widget-text ">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <h3>Setting Goals and Targets to Address Challenges</h3>
+                <p>After receiving feedback from stakeholders and the public, MTC and the ABAG Executive Board established seven goals and 13 performance targets to measure Plan Bay Area 2040’s effectiveness in addressing the major challenges facing the region.</p>
+
+                <p>Senate Bill 375 mandates two of these targets. First, Plan Bay Area 2040 must address climate change by reducing per-capita CO2 emissions from cars and light-duty trucks. Second, Plan Bay Area 2040 must include sufficient housing for all of the
+                  region’s projected population growth, regardless of income.</p>
+
+              </div>
+            </div>
+          </section>
+          <section class="widget-image" id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <div class="thump">
+                  <a class="link zoom single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./img/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                    <span class="sr-only">zoom</span></a>
+                  <a class="link download" href="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo" download="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">download</span>
+                  </a>
+                  <div class="image" style="background-image: url(&#39;/sites/default/files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-547px.png&#39;);">
+                    <a class="single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./img/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
+                      <img src="./img/TABLE_2_1_Final_Goals_Perform_Targets-547px.png" alt="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.">
+                    </a>
+                  </div>
+                  <div class="caption">
+                    <p>
+                      <span class="image-title">TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.</span><br>
+
+                      <span class="image_description">
+                        Plan Bay Area 2040 includes seven goals and 13 performance targets covering three broad areas: the environment, equity and the economy. These aggressive and aspirational targets enable the plan to be evaluated by its performance in areas identified
+                        as key regional concerns, including equitable access, economic vitality and transportation system effectiveness. The performance targets were the result of a robust public process and reflect MTC and ABAG’s commitment to go beyond Plan Bay Area
+                        2040’s legal requirements.<br>
+                        <span class="image_description">
+
+                          <span class="image_description">
+                            Source: Metropolitan Transportation Commission - Resolution No. 4204, Revised, 2015
+                          </span>
+                        </span>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="widget-text " id="">
+            <div class="main-content">
+              <div class="col-xs-12 col-sm-8 col-sm-offset-3">
+                <p>MTC and the ABAG Executive Board voluntarily adopted 11 additional targets as shown in Table 2.1. Key goals for Plan Bay Area 2040 included tackling the Bay Area’s inequities through improved affordability and lessened displacement risk, ensuring
+                  a robust economy, and protecting the environment for future generations. These targets are aggressive and some are quite aspirational. Yet they reflect MTC and ABAG’s commitment to take a more holistic view of the possibilities of integrated regional
+                  planning by going beyond the plan’s legal requirements.</p>
+
+                <p>
+                  <em>For more information on the development of Plan Bay Area 2040’s performance targets, please see the
+                  </em>
+                  <a href="./files/Performance%20Assessment%20Report_PBA2040_7-2017_0.pdf">
+                    <em>Performance Assessment Report</em>
+                  </a>
+                  <em>.</em>
+                </p>
+
+                <p>The next section,
+                  <a href="http://2040.planbayarea.org/forecasting-the-future">Forecasting the Future</a>, will review the primary inputs to Plan Bay Area 2040.</p>
+
+              </div>
+            </div>
+          </section>
+        </article>
+
+      </div>
+
+      <section class="widget-links">
+        <div class="main-content">
+          <div class="col-xs-12 col-sm-7 col-sm-offset-3">
+
+            <a class="left" href="http://2040.planbayarea.org/the-bay-area-today">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              The Bay Area Today
+            </a>
+
+            <a class="right" href="http://2040.planbayarea.org/forecasting-the-future">
+              Forecasting the Future
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
+
+          </div>
+        </div>
+      </section>
+      <a href="http://2040.planbayarea.org/what-is-plan-bay-area-2040#" id="go-to-top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        back to top</a>
+
+      <div class="region region-footer">
+        <div id="block-footeritemsblock" class="contextual-region">
+
+          <section class="widget2">
+            <div class="main-content">
+              <div class="row">
+                <div class="box-left col-xs-12 col-sm-4">
+                  <a href="http://2040.planbayarea.org/about">
+                    <h4>About</h4>
+                    Learn more about Plan Bay Area 2040.
+                  </a>
+                </div>
+                <div class="box-left col-xs-12 col-sm-4">
+                  <a href="http://2040.planbayarea.org/videos">
+                    <h4>Videos</h4>
+                    Check out the latest videos related to the plan.
+                  </a>
+                </div>
+                <div class="box-left col-xs-12 col-sm-4">
+                  <a href="./reports">
+                    <h4>Reports</h4>
+                    Download the plan and review additional resources.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        <div id="block-customfooterblock" class="contextual-region">
+
+          <footer>
+            <div class="main-content">
+              <div class="row">
+                <div class="col-xs-6 footer-icons">
+
+                  <a href="http://mtc.ca.gov/" target="_blank" title="MTC Logo">
+                    <img src="./img/img1-footer.png" alt="MTC Logo" data-mobile="./img/2017-07/MTC_Logo.png" data-desktop="./img/img1-footer.png">
+                  </a>
+
+                  <a href="http://www.abag.ca.gov/" target="_blank" title="ABAG Logo">
+                    <img src="./img/img2-footer_0.png" alt="ABAG Logo" data-mobile="./img/ABAG_Logo.png" data-desktop="./img/img2-footer_0.png">
+                  </a>
+
+                </div>
+
+                <div class="col-xs-6">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/PlanBayArea">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/PlanBayArea">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/planbayarea/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12">
+                  <p>Copyright © 2019 Metropolitan Transportation Commission and Association of Bay Area Governments. All rights reserved.<br>Contact us:
+                    <a href="mailto:info@PlanBayArea.org">info@PlanBayArea.org</a>
+                    or 415.778.6757.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">
+      {
+        "path": {
+          "baseUrl": "\/",
+          "scriptPath": null,
+          "pathPrefix": "",
+          "currentPath": "node\/11",
+          "currentPathIsAdmin": false,
+          "isFront": false,
+          "currentLanguage": "en"
+        },
+        "pluralDelimiter": "\u0003",
+        "suppressDeprecationErrors": true,
+        "ajaxPageState": {
+          "libraries": "acquia_connector\/acquia_connector.icons,admin_toolbar\/toolbar.tree,admin_toolbar_search\/search,admin_toolbar_tools\/toolbar.icon,bartik\/global-styling,bayarea\/bootstrap,bayarea\/custom,classy\/base,classy\/messages,contextual\/drupal.contextua" +
+              "l-links,contextual\/drupal.contextual-toolbar,core\/drupal.active-link,core\/html5shiv,core\/normalize,quickedit\/quickedit,shortcut\/drupal.shortcut,system\/base,toolbar\/toolbar,toolbar\/toolbar.escapeAdmin,tour\/tour,user\/drupal.user.icons",
+          "theme": "bayarea",
+          "theme_token": null
+        },
+        "ajaxTrustedUrl": [],
+        "toolbar": {
+          "breakpoints": {
+            "toolbar.narrow": "only screen and (min-width: 16.5em)",
+            "toolbar.standard": "only screen and (min-width: 38.125em)",
+            "toolbar.wide": "only screen and (min-width: 61em)"
+          },
+          "subtreesHash": "m4KxFlGVSoFDoTofQS_B4_Lz9RFPc-u-iojbSjOu6rU"
+        },
+        "adminToolbarSearch": {
+          "loadExtraLinks": true
+        },
+        "user": {
+          "uid": "296",
+          "permissionsHash": "a956f9ccd92e9c9119a39643e3a41294eb67b07cfc85144a1e21c27506c56e68"
+        }
+      }
+    </script>
+
+    <!--[if lte IE 9]> <script src="/sites/default/files/js/js_VhqXmo4azheUjYC30rijnR_Dddo0WjWkF27k5gTL8S4.js"></script> <![endif]-->
+    <script src="./js/js_MCXRREKQYiHm8a0YtIO6KvFy7_gLt34q4xmmXPS0UxE.js"></script>
+
+    <script type="text/javascript">
+      window.NREUM || (NREUM = {});
+      NREUM.info = {
+        "beacon": "bam.nr-data.net",
+        "licenseKey": "2e1d731407",
+        "applicationID": "70690088",
+        "transactionName": "MgNSYUcAWkQHVENcWAtJcVZBCFtZSXNFQEcECmxbWgVRayVYWUFFCgpcUEc9elgCUmFcUhIlX1tBE1tbClJFGAkTD1VC",
+        "queueTime": 0,
+        "applicationTime": 209,
+        "atts": "HkRRFw8aSUo=",
+        "errorBeacon": "bam.nr-data.net",
+        "agent": ""
+      }
+    </script>
+
+    <div id="localize-widget" notranslate="" class="localize-right-bottom" style="color: rgb(255, 255, 255) !important; background-color: rgb(47, 102, 155) !important; display: block;">
+      <div id="localize-widget-langs">
+        <a onclick="Localize.setLanguage(&#39;es&#39;);" style="color: #ffffff !important;">Español</a>
+        <a onclick="Localize.setLanguage(&#39;zh-TW&#39;);" style="color: #ffffff !important;">中文(繁體)</a>
+      </div>
+      <div id="localize-powered-by" style="color:#ffffff!important;">
+        <span style="color:#ffffff!important;">Powered by
+          <a href="https://localizejs.com/?utm_source=widget" target="_blank">Localize</a></span></div>
+      <a id="localize-active-lang" style="background-color: #10afd1 !important;color: #ffffff !important;">English</a>
+    </div>
+    <div id="drupal-live-announce" class="visually-hidden" aria-live="polite" aria-busy="false">Tray "Administration menu" opened.</div>
+    <ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul>
+    <div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+  </body>
+</html>
