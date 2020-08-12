@@ -2444,6 +2444,7 @@ div.pp_default .pp_nav {
 }
 
 .widget-links a {
+  font-family: "din-regular";
   color: #4a4a4a;
   font-size: 1.7rem;
   line-height: 3rem;
