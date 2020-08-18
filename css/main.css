@@ -353,7 +353,6 @@ a:visited,
 a:active {
   text-decoration: none;
   border: none;
-  outline: none;
   text-shadow: none;
 }
 
@@ -710,6 +709,12 @@ header a {
   font-size: 2rem;
   margin: 0 0 0 2.6rem;
   border: none;
+}
+
+header button {
+  background-color: transparent;
+  font-size: 2rem;
+  margin: 0 0 0 2.6rem;
 }
 
 header p {
@@ -1525,7 +1530,8 @@ footer ul li a {
   display: block;
 }
 
-footer ul li a:hover {
+footer ul li a:hover,
+footer ul li a:focus, {
   color: #ffffff;
 }
 
@@ -2880,7 +2886,6 @@ body {
 
 .thump .caption {
   margin-bottom: 0;
-  display: table-caption;
   caption-side: bottom;
 }
 
