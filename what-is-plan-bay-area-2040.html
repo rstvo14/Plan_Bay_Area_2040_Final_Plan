@@ -688,9 +688,15 @@
                         <i class="fa fa-chevron-down" aria-hidden="true"></i>
                       </a>
                       <ul>
-                        <li><a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a></li>
-                        <li><a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a></li>
-                        <li><a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a></li>
+                        <li>
+                          <a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a>
+                        </li>
+                        <li>
+                          <a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a>
+                        </li>
+                        <li>
+                          <a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a>
+                        </li>
                       </ul>
                     </li>
                     <li>
@@ -722,11 +728,19 @@
                   </ul>
                 </nav>
 
-                <a href="#" class="translate"><i class="fa fa-globe" aria-hidden="true"></i><span class="sr-only">Select Language</span></a>
+                <button href="#" class="translate" role="button">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <span class="sr-only">Select Language</span></button>
                 <ul class="translate-drop">
-                  <li><a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a></li>
-                  <li><a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a></li>
-                  <li><a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a></li>
+                  <li>
+                    <a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a>
+                  </li>
+                  <li>
+                    <a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a>
+                  </li>
+                  <li>
+                    <a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a>
+                  </li>
                 </ul>
 
               </div>
@@ -763,7 +777,7 @@
       <section class="top-banner-color" style="background: #C24100;">
         <div class="main-content">
           <div class="inner">
-            <img class="img-opacity" src="./files/styles/large/public/2017-03/theplan_white.png?itok=c4RUHisn">
+            <img class="img-opacity" src="./files/styles/large/public/2017-03/theplan_white.png?itok=c4RUHisn" alt="">
             <a href="./the-bay-area-today" class="prev-arrow">
               <i class="fa fa-chevron-left" aria-hidden="true"></i>
               <span class="sr-only">go to previous page</span></a>
@@ -843,31 +857,38 @@
           <div class="main-content">
             <div class="col-xs-12 col-sm-8 col-sm-offset-3">
               <div class="thump">
-                <a class="link zoom single" title="" href="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
-                  <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  <span class="sr-only">zoom</span></a>
-                <a class="link download" href="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg" download="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg">
-                  <i class="fa fa-download" aria-hidden="true"></i>
-                  <span class="sr-only">download</span>
-                </a>
-                <div class="image" style="background-image: url('./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk-547px.png');">
-                  <a class="single" title="" href="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
-                    <img src="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk-547px.png" alt="">
+                <figure>
+                  <a class="link zoom single" title="" href="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                    <span class="sr-only">zoom</span></a>
+                  <a class="link download" href="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg" download="https://mtcdrive.box.com/shared/static/s8fy0ayqmkuq7u4l5iu7uvk7xcr7t09a.jpg">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">download</span>
                   </a>
-                </div>
-                <div class="caption">
-                  <p>
-
-                    <span class="image_description">
-                      Pedestrians in San Jose.
-                      <br>
-                      <span class="image_description">
+                  <div class="image" style="background-image: url('./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk-547px.png');">
+                    <a class="single" title="" href="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk.jpg">
+                      <span class="sr-only">open image in pop-up</span>
+                      <img src="./files/2020-02/2_1x%20San%20Jose%20Pedestrians%20with%20Blue%20Crosswalk-547px.png" alt="">
+                    </a>
+                  </div>
+                  <figcaption>
+                    <div class="caption">
+                      <p>
 
                         <span class="image_description">
-                          Credit: Martin Klimek
-                        </span>
-                      </p>
-                    </div>
+                          Pedestrians in San Jose.
+                          <br>
+                          <span class="image_description">
+
+                            <span class="image_description">
+                              Credit: Martin Klimek
+                            </span>
+                          </p>
+                        </div>
+                  </figcaption>
+
+                </figure>
+
                   </div>
                 </div>
               </div>
@@ -909,30 +930,37 @@
               <div class="main-content">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-3">
                   <div class="thump">
-                    <a class="link zoom single" title="" href="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
-                      <i class="fa fa-search-plus" aria-hidden="true"></i>
-                      <span class="sr-only">zoom</span></a>
-                    <a class="link download" href="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg" download="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg">
-                      <i class="fa fa-download" aria-hidden="true"></i>
-                      <span class="sr-only">download</span>
-                    </a>
-                    <div class="image" style="background-image: url('./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial-547px.png');">
-                      <a class="single" title="" href="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
-                        <img src="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial-547px.png" alt="">
+                    <figure>
+                      <a class="link zoom single" title="" href="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                        <span class="sr-only">zoom</span></a>
+                      <a class="link download" href="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg" download="https://mtcdrive.box.com/shared/static/e9avbe57my1p66o12cgkre564dbj9bgt.jpg">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">download</span>
                       </a>
-                    </div>
-                    <div class="caption">
-                      <p>
-
-                        <span class="image_description">
-                          Development in Vacaville, Solano County.<br>
-                          <span class="image_description">
+                      <div class="image" style="background-image: url('./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial-547px.png');">
+                        <a class="single" title="" href="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial.jpg">
+                          <span class="sr-only">open image in pop-up</span>
+                          <img src="./files/2020-02/2_1%20Vacaville%20Development%20Drone%20Aerial-547px.png" alt="">
+                        </a>
+                      </div>
+                      <figcaption>
+                        <div class="caption">
+                          <p>
 
                             <span class="image_description">
-                              Credit: Karl Nielsen
-                            </span>
-                          </p>
-                        </div>
+                              Development in Vacaville, Solano County.<br>
+                              <span class="image_description">
+
+                                <span class="image_description">
+                                  Credit: Karl Nielsen
+                                </span>
+                              </p>
+                            </div>
+                      </figcaption>
+
+                    </figure>
+
                       </div>
                     </div>
                   </div>
@@ -970,30 +998,37 @@
                   <div class="main-content">
                     <div class="col-xs-12 col-sm-8 col-sm-offset-3">
                       <div class="thump">
-                        <a class="link zoom single" title="" href="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
-                          <i class="fa fa-search-plus" aria-hidden="true"></i>
-                          <span class="sr-only">zoom</span></a>
-                        <a class="link download" href="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg" download="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg">
-                          <i class="fa fa-download" aria-hidden="true"></i>
-                          <span class="sr-only">download</span>
-                        </a>
-                        <div class="image" style="background-image: url('./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART-547px.png');">
-                          <a class="single" title="" href="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
-                            <img src="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART-547px.png" alt="">
+                        <figure>
+                          <a class="link zoom single" title="" href="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            <span class="sr-only">zoom</span></a>
+                          <a class="link download" href="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg" download="https://mtcdrive.box.com/shared/static/kzsqqrbk054rocldm1fr1gj4glii1r4r.jpg">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <span class="sr-only">download</span>
                           </a>
-                        </div>
-                        <div class="caption">
-                          <p>
-
-                            <span class="image_description">
-                              Transit-oriented development in West Oakland allows residents to travel to San Francisco and other nearby cities easily.<br>
-                              <span class="image_description">
+                          <div class="image" style="background-image: url('./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART-547px.png');">
+                            <a class="single" title="" href="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART.jpg">
+                              <span class="sr-only">open image in pop-up</span>
+                              <img src="./files/2020-02/2_2x%20Housing%20near%20West%20Oakland%20BART-547px.png" alt="">
+                            </a>
+                          </div>
+                          <figcaption>
+                            <div class="caption">
+                              <p>
 
                                 <span class="image_description">
-                                  Credit: Karl Nielsen
-                                </span>
-                              </p>
-                            </div>
+                                  Transit-oriented development in West Oakland allows residents to travel to San Francisco and other nearby cities easily.<br>
+                                  <span class="image_description">
+
+                                    <span class="image_description">
+                                      Credit: Karl Nielsen
+                                    </span>
+                                  </p>
+                                </div>
+                          </figcaption>
+
+                        </figure>
+
                           </div>
                         </div>
                       </div>
@@ -1083,60 +1118,76 @@
                           <div class="owl-carousel owl-theme">
 
                             <div class="item">
-                              <a href="./files/2020-02/2_3%20PBA%20Outreach%20-%20Dave.jpg" rel="prettyPhoto[myGallery]" title="">
-                                <img src="./files/2020-02/2_3_PBA_Outreach_-_Dave_1.jpg" alt=" Public meetings were held in all nine counties to discuss the plan’s development.">
-                              </a>
+                              <figure>
+                                <a href="./files/2020-02/2_3%20PBA%20Outreach%20-%20Dave.jpg" rel="prettyPhoto[myGallery]" title="">
+                                  <span class="sr-only">open image in pop-up</span>
+                                  <img src="./files/2020-02/2_3_PBA_Outreach_-_Dave_1.jpg" alt=" Public meetings were held in all nine counties to discuss the plan’s development.">
+                                </a>
 
-                              <div class="caption">
-                                <p>
+                                <figcaption>
+                                  <div class="caption">
+                                    <p>
 
-                                  <span class="image_description">
-                                    Public meetings were held in all nine counties to discuss the plan’s development.<br>
-                                  </span>
+                                      <span class="image_description">
+                                        Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                                      </span>
 
-                                  <span class="image_description">
-                                    Credit: Karl Nielsen
-                                  </span>
-                                </p>
-                              </div>
+                                      <span class="image_description">
+                                        Credit: Karl Nielsen
+                                      </span>
+                                    </p>
+                                  </div>
+                                </figcaption>
+                              </figure>
+
                             </div>
 
                             <div class="item">
-                              <a href="./files/2020-02/2_4PBA%20Outreach%20-%20Older%20Women.jpg" rel="prettyPhoto[myGallery]" title="">
-                                <img src="./files/2020-02/2_4PBA%20Outreach%20-%20Older%20Women.JPG" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
-                              </a>
+                              <figure>
+                                <a href="./files/2020-02/2_4PBA%20Outreach%20-%20Older%20Women.jpg" rel="prettyPhoto[myGallery]" title="">
+                                  <span class="sr-only">open image in pop-up</span>
+                                  <img src="./files/2020-02/2_4PBA%20Outreach%20-%20Older%20Women.JPG" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                                </a>
+                                <figcaption>
+                                  <div class="caption">
+                                    <p>
 
-                              <div class="caption">
-                                <p>
+                                      <span class="image_description">
+                                        Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                                      </span>
 
-                                  <span class="image_description">
-                                    Public meetings were held in all nine counties to discuss the plan’s development.<br>
-                                  </span>
+                                      <span class="image_description">
+                                        Credit: Karl Nielsen
+                                      </span>
+                                    </p>
+                                  </div>
+                                </figcaption>
+                              </figure>
 
-                                  <span class="image_description">
-                                    Credit: Karl Nielsen
-                                  </span>
-                                </p>
-                              </div>
                             </div>
 
                             <div class="item">
-                              <a href="./files/2020-02/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman_0.jpg" rel="prettyPhoto[myGallery]" title="">
-                                <img src="./files/2020-02/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman.jpg" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
-                              </a>
+                              <figure>
+                                <a href="./files/2020-02/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman_0.jpg" rel="prettyPhoto[myGallery]" title="">
+                                  <span class="sr-only">open image in pop-up</span>
+                                  <img src="./files/2020-02/2_2%20PBA%20Outreach%20-%20Young%20Man%20%26%20Woman.jpg" alt="Public meetings were held in all nine counties to discuss the plan’s development.">
+                                </a>
+                                <figcaption>
+                                  <div class="caption">
+                                    <p>
 
-                              <div class="caption">
-                                <p>
+                                      <span class="image_description">
+                                        Public meetings were held in all nine counties to discuss the plan’s development.<br>
+                                      </span>
 
-                                  <span class="image_description">
-                                    Public meetings were held in all nine counties to discuss the plan’s development.<br>
-                                  </span>
+                                      <span class="image_description">
+                                        Credit: Karl Nielsen
+                                      </span>
+                                    </p>
+                                  </div>
+                                </figcaption>
+                              </figure>
 
-                                  <span class="image_description">
-                                    Credit: Karl Nielsen
-                                  </span>
-                                </p>
-                              </div>
                             </div>
 
                           </div>
@@ -1161,33 +1212,40 @@
                       <div class="main-content">
                         <div class="col-xs-12 col-sm-8 col-sm-offset-3">
                           <div class="thump">
-                            <a class="link zoom single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
-                              <i class="fa fa-search-plus" aria-hidden="true"></i>
-                              <span class="sr-only">zoom</span></a>
-                            <a class="link download" href="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo" download="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo">
-                              <i class="fa fa-download" aria-hidden="true"></i>
-                              <span class="sr-only">download</span>
-                            </a>
-                            <div class="image" style="background-image: url('./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-547px.png');">
-                              <a class="single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
-                                <img src="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-547px.png" alt="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.">
+                            <figure>
+                              <a class="link zoom single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                <span class="sr-only">zoom</span></a>
+                              <a class="link download" href="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo" download="https://mtcdrive.box.com/s/tbayawmxk9adkeai83wyn6x4qmqkciwo">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <span class="sr-only">download</span>
                               </a>
-                            </div>
-                            <div class="caption">
-                              <p>
-                                <span class="image-title">TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.</span><br>
-
-                                <span class="image_description">
-                                  Plan Bay Area 2040 includes seven goals and 13 performance targets covering three broad areas: the environment, equity and the economy. These aggressive and aspirational targets enable the plan to be evaluated by its performance in areas identified
-                                  as key regional concerns, including equitable access, economic vitality and transportation system effectiveness. The performance targets were the result of a robust public process and reflect MTC and ABAG’s commitment to go beyond Plan Bay Area
-                                  2040’s legal requirements.<br>
-                                  <span class="image_description">
+                              <div class="image" style="background-image: url('./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-547px.png');">
+                                <a class="single" title="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040." href="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-1000px.png">
+                                  <span class="sr-only">open image in pop-up</span>
+                                  <img src="./files/2020-02/TABLE_2_1_Final_Goals_Perform_Targets-547px.png" alt="TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.">
+                                </a>
+                              </div>
+                              <figcaption>
+                                <div class="caption">
+                                  <p>
+                                    <span class="image-title">TABLE 2.1 Final adopted goals and performance targets for Plan Bay Area 2040.</span><br>
 
                                     <span class="image_description">
-                                      Source: Metropolitan Transportation Commission - Resolution No. 4204, Revised, 2015
-                                    </span>
-                                  </p>
-                                </div>
+                                      Plan Bay Area 2040 includes seven goals and 13 performance targets covering three broad areas: the environment, equity and the economy. These aggressive and aspirational targets enable the plan to be evaluated by its performance in areas identified
+                                      as key regional concerns, including equitable access, economic vitality and transportation system effectiveness. The performance targets were the result of a robust public process and reflect MTC and ABAG’s commitment to go beyond Plan Bay Area
+                                      2040’s legal requirements.<br>
+                                      <span class="image_description">
+
+                                        <span class="image_description">
+                                          Source: Metropolitan Transportation Commission - Resolution No. 4204, Revised, 2015
+                                        </span>
+                                      </p>
+                                    </div>
+                              </figcaption>
+
+                            </figure>
+
                               </div>
                             </div>
                           </div>
@@ -1288,17 +1346,17 @@
                                 <div class="col-xs-6">
                                   <ul>
                                     <li>
-                                      <a href="https://www.facebook.com/PlanBayArea">
+                                      <a href="https://www.facebook.com/PlanBayArea" target="_blank">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                         <span class="sr-only">Facebook</span></a>
                                     </li>
                                     <li>
-                                      <a href="https://twitter.com/PlanBayArea">
+                                      <a href="https://twitter.com/PlanBayArea" target="_blank">
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                         <span class="sr-only">Twitter</span></a>
                                     </li>
                                     <li>
-                                      <a href="https://www.instagram.com/planbayarea/">
+                                      <a href="https://www.instagram.com/planbayarea/" target="_blank">
                                         <i class="fa fa-instagram" aria-hidden="true"></i>
                                         <span class="sr-only">Instagram</span></a>
                                     </li>
