@@ -651,6 +651,7 @@
   </head>
   <body class="layout-no-sidebars">
 
+    <a href="#content" class="visually-hidden focusable skip-link">Skip to content</a>
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="data-off-canvas-main-canvas">
       <div class="clearfix region region-header">
         <div id="block-customheaderblock">
@@ -681,24 +682,24 @@
                     <div class="horizontal"></div>
                     <div class="part-2"></div>
                   </button>
-
-                  <li class="translate-mobile">
-                    <a href="#">
-                      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                    </a>
-                    <ul>
-                      <li>
-                        <a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a>
-                      </li>
-                      <li>
-                        <a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a>
-                      </li>
-                      <li>
-                        <a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a>
-                      </li>
-                    </ul>
-                  </li>
                   <ul>
+
+                    <li class="translate-mobile">
+                      <a href="#">Translate
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                      </a>
+                      <ul>
+                        <li>
+                          <a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a>
+                        </li>
+                        <li>
+                          <a data-language="es" href='javascript:Localize.setLanguage("es")'>Español</a>
+                        </li>
+                        <li>
+                          <a data-language="zh-TW" href='javascript:Localize.setLanguage("zh-TW")'>中文(繁體)</a>
+                        </li>
+                      </ul>
+                    </li>
                     <li>
                       <a href="./the-bay-area-today">The Bay Area Today</a>
                     </li>
@@ -774,6 +775,7 @@
         }
       </style>
 
+      <div id="#content"></div>
       <section class="top-banner-color" style="background: #357D08;">
         <div class="main-content">
           <div class="inner">
@@ -794,7 +796,7 @@
       <section class="sidebar">
         <div class="main-content">
           <div class="col-xs-3 inner" style="background-color:#eff4ea !important;">
-            <p class="sidebar-header">Forecasting the Future</p>
+            <p class="sidebar-header"><span class="sr-only">Section Navigation: "</span>Forecasting the Future</p>
             <nav>
               <ul class="links">
                 <li>
@@ -861,7 +863,7 @@
                   <div class="image" style="background-image: url('./files/2020-02/3_1_Employment_Stock_Photo%20_0.jpg');">
                     <a class="single" title="" href="./files/2020-02/3_1%20Employment%20Stock%20Photo_0.jpg">
                       <span class="sr-only">open image in pop-up</span>
-                      <img src="./files/2020-02/3_1_Employment_Stock_Photo%20_0.jpg" alt="">
+                      <img src="./files/2020-02/3_1_Employment_Stock_Photo%20_0.jpg" alt="The Professional/Managerial sector is expected to grow in the Bay Area by 2040.">
                     </a>
                   </div>
                   <figcaption>
@@ -1236,7 +1238,7 @@
                           <div class="image" style="background-image: url('./files/2020-02/3_2%20Drone%20Aerial%20of%20Warm%20Springs%20BART-547px.png');">
                             <a class="single" title="" href="./files/2020-02/3_2%20Drone%20Aerial%20of%20Warm%20Springs%20BART.jpg">
                               <span class="sr-only">open image in pop-up</span>
-                              <img src="./files/2020-02/3_2%20Drone%20Aerial%20of%20Warm%20Springs%20BART-547px.png" alt="">
+                              <img src="./files/2020-02/3_2%20Drone%20Aerial%20of%20Warm%20Springs%20BART-547px.png" alt="The new Warm Springs BART station opened in spring of 2017, bringing rapid transit closer to job growth in the South Bay.">
                             </a>
                           </div>
                           <figcaption>
@@ -1449,7 +1451,7 @@
                               <div class="image" style="background-image: url('./files/2020-02/3_3%20Central%20Subway%20Construction-547px.png');">
                                 <a class="single" title="" href="./files/2020-02/3_3%20Central%20Subway%20Construction.jpg">
                                   <span class="sr-only">open image in pop-up</span>
-                                  <img src="./files/2020-02/3_3%20Central%20Subway%20Construction-547px.png" alt="">
+                                  <img src="./files/2020-02/3_3%20Central%20Subway%20Construction-547px.png" alt="Construction is currently underway on San Francisco’s Central Subway Project.">
                                 </a>
                               </div>
                               <figcaption>
@@ -1565,7 +1567,7 @@
                                 <div class="col-xs-12">
                                   <p>Copyright © 2019 Metropolitan Transportation Commission and Association of Bay Area Governments. All rights reserved.<br>Contact us:
                                     <a href="mailto:info@PlanBayArea.org">info@PlanBayArea.org</a>
-                                    or 415.778.6757.</p>
+                                    or <a href="tel:4157786757">415.778.6757</a>.</p>
                                 </div>
                               </div>
                             </div>
