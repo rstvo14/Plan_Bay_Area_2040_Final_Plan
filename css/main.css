@@ -336,15 +336,12 @@ select:active,
 button {
   border: none;
   border-color: transparent;
-  outline: none;
-  outline-offset: none;
   box-shadow: none;
   -webkit-border-radius: 0;
   -webkit-box-shadow: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   text-shadow: none;
-  outline-width: 0;
 }
 
 a:hover,
@@ -510,6 +507,10 @@ header {
 
 header .main-content {
   position: relative;
+}
+
+a.mobile-home-url:focus p.desktop {
+  opacity:.6;
 }
 
 @media (max-width: 767px) {
@@ -3702,4 +3703,22 @@ svg.ext path {
 
 .widget-text-red svg.ext {
   fill: #fff;
+}
+.skip-link.visually-hidden.focusable:focus {
+  position:absolute !important;
+}
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+  width: 1px;
+  height: 1px;
+  word-wrap: normal;
+}
+.visually-hidden.focusable:active,.visually-hidden.focusable:focus {
+  position:static !important;
+  overflow:visible;
+  clip:auto;
+  width:auto;
+  height:auto;
 }
