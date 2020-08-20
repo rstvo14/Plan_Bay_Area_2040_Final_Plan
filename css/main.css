@@ -2600,7 +2600,7 @@ div.pp_default .pp_nav {
   }
 }
 
-.sidebar p {
+.sidebar h2 {
   font-family: "memphis-bold";
   font-size: 1.6rem;
   line-height: 2.2rem;
@@ -2608,12 +2608,12 @@ div.pp_default .pp_nav {
   padding: 0 0 1.3rem;
 }
 
-.sidebar p.sidebar-header {
+.sidebar h2.sidebar-header {
   color: #4a4a4a !important;
 }
 
 @media (max-width: 767px) {
-  .sidebar p {
+  .sidebar h2 {
     display: none;
   }
 }
