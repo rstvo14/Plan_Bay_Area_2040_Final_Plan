@@ -1532,7 +1532,7 @@ footer ul li a {
 }
 
 footer ul li a:hover,
-footer ul li a:focus, {
+footer ul li a:focus {
   color: #ffffff;
 }
 
@@ -2874,7 +2874,6 @@ body {
 }
 
 .thump .image {
-  display: table-cell;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3715,7 +3714,7 @@ svg.ext path {
   height: 1px;
   word-wrap: normal;
 }
-.visually-hidden.focusable:active,.visually-hidden.focusable:focus {
+.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
   position:static !important;
   overflow:visible;
   clip:auto;
