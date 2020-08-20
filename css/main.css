@@ -2605,6 +2605,7 @@ div.pp_default .pp_nav {
   font-size: 1.6rem;
   line-height: 2.2rem;
   color: #4a4a4a;
+  margin: 0;
   padding: 0 0 1.3rem;
 }
 
