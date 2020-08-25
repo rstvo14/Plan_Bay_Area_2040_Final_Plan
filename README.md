@@ -15,8 +15,8 @@ The new project directory cleans up code/files with added spacing and coherent s
 	fonts/ (folder with fonts, if not hosted via google or another webfont platform)
 	files/ (folder with all files linked from pages on the site)
 	favicon.ico (fav icon for the site)
-
-##Translation widget
+ 
+## Translation widget
 The translation widget is powered by Localize.js 
 
 All of the translation work takes place via the localize account console, which is typically managed by MTC admins. 
@@ -27,12 +27,12 @@ To add a new translate language:
 1) Update the dropdown menu structure for both mobile and desktop versions to include new language as follows:  
 `<a data-language="en" href='javascript:Localize.setLanguage("en")'>English</a>`. 
 
-##Custom CSS and JS
+## Custom CSS and JS
 Both main.css and main.js hold custom features that are clear to follow and alter if needed. A minimized file is provided for carousel, jQuery, jQuery Easing, and Bootstrap.  
 
-##Documents
+## Documents
 PDF documents are archived year-month inside the files folder. Add new files by creating a new year-month folder and use a relative file path to reference the new file. 
 
-##Credits
+## Credits
 * The site 2040.planbayarea.org is owned by MTC and 
 * the HTML version is created by GitHub (2020) Gustavo. https://github.com/rstvo14/plan_bay_area_2040_final_plan.git. 
